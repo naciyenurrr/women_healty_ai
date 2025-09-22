@@ -1,0 +1,1796 @@
+[
+  {
+    "question": "Adet döngüsü ortalama kaç gün sürer?",
+    "answer": "Adet döngüsü genellikle 28 gün sürer ancak 21-35 gün arası normal kabul edilir."
+  },
+  {
+    "question": "Adet döneminde ağrı neden oluşur?",
+    "answer": "Adet ağrısı, rahmin kasılması sırasında salgılanan prostaglandin hormonlarından kaynaklanır."
+  },
+  {
+    "question": "Adet gecikmesi kaç gün olursa normal kabul edilir?",
+    "answer": "7-10 güne kadar adet gecikmeleri normal kabul edilebilir ancak daha uzun gecikmelerde doktora başvurulmalıdır."
+  },
+  {
+    "question": "Adet düzensizliği hangi hastalıkların belirtisi olabilir?",
+    "answer": "Polikistik over sendromu, tiroit bozuklukları, stres veya hormonal dengesizlikler adet düzensizliğine yol açabilir."
+  },
+  {
+    "question": "Regl döneminde hangi besinlerden kaçınılmalıdır?",
+    "answer": "Kafein, aşırı tuzlu ve şekerli yiyeceklerden kaçınılmalıdır."
+  },
+  {
+    "question": "PMS nedir?",
+    "answer": "Premenstrüel sendrom (PMS), adet öncesi dönemde görülen sinirlilik, şişkinlik ve duygu değişimlerini ifade eder."
+  },
+  {
+    "question": "Adet döneminde egzersiz yapmak zararlı mıdır?",
+    "answer": "Hayır, hafif ve orta düzeyde egzersiz ağrıların azalmasına yardımcı olabilir."
+  },
+  {
+    "question": "Adet döneminde hamile kalmak mümkün müdür?",
+    "answer": "Evet, nadir de olsa adet döneminde hamile kalma ihtimali vardır."
+  },
+  {
+    "question": "Adet döneminde aşırı kanama neyin habercisidir?",
+    "answer": "Hormonal bozukluklar, miyom veya polipler aşırı kanamaya sebep olabilir."
+  },
+  {
+    "question": "Adet kanı normalde ne renktir?",
+    "answer": "Koyu kırmızı veya kahverengimsi tonlarda olabilir, çok açık ya da gri renkte kanama enfeksiyon belirtisi olabilir."
+  },
+
+  {
+    "question": "Pap smear testi nedir?",
+    "answer": "Rahim ağzı kanserini erken teşhis etmek için yapılan tarama testidir."
+  },
+  {
+    "question": "Pap smear testi kaç yaşından itibaren yapılmalıdır?",
+    "answer": "21 yaşından itibaren düzenli olarak yapılmalıdır."
+  },
+  {
+    "question": "Pap smear testi ne sıklıkla yapılmalıdır?",
+    "answer": "Genellikle 3 yılda bir önerilir, risk faktörlerine göre değişebilir."
+  },
+  {
+    "question": "Meme kanseri için ilk tarama yaşı kaçtır?",
+    "answer": "40 yaşından itibaren mamografi ile tarama önerilir."
+  },
+  {
+    "question": "Mamografi nedir?",
+    "answer": "Memenin düşük dozlu röntgen ışınları ile görüntülenmesidir."
+  },
+  {
+    "question": "Kendi kendine meme muayenesi ne zaman yapılmalıdır?",
+    "answer": "Her ay, adet bitiminden sonraki ilk hafta içinde yapılmalıdır."
+  },
+  {
+    "question": "Ultrason ile meme muayenesi hangi yaşlarda tercih edilir?",
+    "answer": "40 yaş altındaki kadınlarda daha çok ultrason tercih edilir."
+  },
+  {
+    "question": "HPV testi hangi hastalık için önemlidir?",
+    "answer": "Rahim ağzı kanseri riskini belirlemek için önemlidir."
+  },
+  {
+    "question": "HPV testi hangi yaş grubuna önerilir?",
+    "answer": "30 yaş ve üzerindeki kadınlara önerilir."
+  },
+  {
+    "question": "Rahim ağzı kanseri taramasında hangi iki test kullanılır?",
+    "answer": "Pap smear ve HPV testleri birlikte kullanılabilir."
+  },
+
+  {
+    "question": "Polikistik Over Sendromu (PCOS) nedir?",
+    "answer": "Yumurtalıklarda çok sayıda küçük kist oluşmasıyla ortaya çıkan hormonal bir hastalıktır."
+  },
+  {
+    "question": "PCOS’un belirtileri nelerdir?",
+    "answer": "Adet düzensizliği, aşırı tüylenme, kilo alma ve sivilce oluşumu."
+  },
+  {
+    "question": "Endometriozis nedir?",
+    "answer": "Rahim iç tabakasının rahim dışında büyümesiyle oluşan bir hastalıktır."
+  },
+  {
+    "question": "Endometriozis belirtileri nelerdir?",
+    "answer": "Ağrılı adet, cinsel ilişki sırasında ağrı ve kısırlık."
+  },
+  {
+    "question": "Miyom nedir?",
+    "answer": "Rahim kas dokusunda gelişen iyi huylu tümörlerdir."
+  },
+  {
+    "question": "Miyomlar kansere dönüşür mü?",
+    "answer": "Çok nadiren kansere dönüşebilirler."
+  },
+  {
+    "question": "Over kisti nedir?",
+    "answer": "Yumurtalıklarda sıvı dolu keseciklerin oluşmasıdır."
+  },
+  {
+    "question": "Over kistleri genelde hangi durumlarda belirti verir?",
+    "answer": "Büyük boyutlara ulaştığında karın ağrısı ve şişkinlik yapabilir."
+  },
+  {
+    "question": "Rahim kanseri en çok hangi yaş grubunda görülür?",
+    "answer": "Genellikle menopoz sonrası dönemde daha sık görülür."
+  },
+  {
+    "question": "Rahim kanserinin en önemli belirtisi nedir?",
+    "answer": "Menopoz sonrası vajinal kanamadır."
+  },
+
+  {
+    "question": "Menopoz nedir?",
+    "answer": "Kadının adet görmesinin kalıcı olarak sona ermesidir."
+  },
+  {
+    "question": "Menopoz ortalama kaç yaşında başlar?",
+    "answer": "Genellikle 45-55 yaşları arasında görülür."
+  },
+  {
+    "question": "Menopozun en sık görülen belirtisi nedir?",
+    "answer": "Ateş basmaları ve terleme en sık görülen belirtilerdir."
+  },
+  {
+    "question": "Menopoz sonrası kanama normal midir?",
+    "answer": "Hayır, menopoz sonrası kanama normal değildir ve araştırılmalıdır."
+  },
+  {
+    "question": "Osteoporoz riski en çok hangi dönemde artar?",
+    "answer": "Menopoz sonrası dönemde östrojen azalmasıyla birlikte artar."
+  },
+  {
+    "question": "Menopoz tedavisinde hangi yöntemler kullanılır?",
+    "answer": "Hormon replasman tedavisi ve yaşam tarzı değişiklikleri."
+  },
+  {
+    "question": "Doğum kontrol hapları hangi mekanizma ile çalışır?",
+    "answer": "Hormonal dengeyi değiştirerek yumurtlamayı engeller."
+  },
+  {
+    "question": "Doğum kontrol hapları adet düzensizliklerine iyi gelir mi?",
+    "answer": "Evet, düzenli kullanımda adet döngüsünü dengeleyebilir."
+  },
+  {
+    "question": "Spiral (RİA) nedir?",
+    "answer": "Rahim içine yerleştirilen ve gebeliği önleyen küçük bir cihazdır."
+  },
+  {
+    "question": "Spiral takıldıktan sonra hangi belirtiler görülebilir?",
+    "answer": "İlk aylarda düzensiz kanama ve kramplar görülebilir."
+  },
+
+  {
+    "question": "Sezaryen doğum nedir?",
+    "answer": "Bebeğin karın ve rahim kesisiyle alınması işlemidir."
+  },
+  {
+    "question": "Normal doğum ile sezaryen arasındaki fark nedir?",
+    "answer": "Normal doğum vajinal yolla gerçekleşirken, sezaryen cerrahi operasyonla yapılır."
+  },
+  {
+    "question": "Gebelik süresi ortalama kaç haftadır?",
+    "answer": "Gebelik süresi ortalama 40 haftadır."
+  },
+  {
+    "question": "Gebelikte ilk ultrason ne zaman yapılmalıdır?",
+    "answer": "Genellikle 6-8. haftalarda yapılır."
+  },
+  {
+    "question": "Gebelikte en önemli vitaminlerden biri hangisidir?",
+    "answer": "Folik asit, özellikle ilk trimesterde çok önemlidir."
+  },
+
+  {
+    "question": "Gebelikte demir takviyesi neden önemlidir?",
+    "answer": "Anne adayında kansızlığı önlemek ve bebeğin sağlıklı gelişimini desteklemek için önemlidir."
+  },
+  {
+    "question": "Gebelikte ultrason kaç kez yapılmalıdır?",
+    "answer": "Genellikle 3 büyük ultrason önerilir, risk durumuna göre sayısı artabilir."
+  },
+  {
+    "question": "Gebelikte şeker yükleme testi ne zaman yapılır?",
+    "answer": "24-28. haftalar arasında yapılır."
+  },
+  {
+    "question": "Gebelikte en sık görülen rahatsızlıklar nelerdir?",
+    "answer": "Bulantı, kusma, mide ekşimesi, ödem ve bel ağrısı en sık görülen şikayetlerdir."
+  },
+  {
+    "question": "Preeklampsi nedir?",
+    "answer": "Gebelikte yüksek tansiyon ve idrarda protein kaçağı ile seyreden ciddi bir durumdur."
+  },
+  {
+    "question": "Preeklampsinin belirtileri nelerdir?",
+    "answer": "Baş ağrısı, görme bozukluğu, el ve yüzde şişlik, yüksek tansiyon."
+  },
+  {
+    "question": "Erken doğum nedir?",
+    "answer": "37. gebelik haftasından önce doğumun gerçekleşmesidir."
+  },
+  {
+    "question": "Erken doğum risk faktörleri nelerdir?",
+    "answer": "Rahim anomalileri, çoğul gebelik, enfeksiyonlar, stres ve sigara kullanımı."
+  },
+  {
+    "question": "Düşük tehdidi nedir?",
+    "answer": "Gebeliğin 20. haftasından önce vajinal kanama ve karın ağrısıyla ortaya çıkan durumdur."
+  },
+  {
+    "question": "Düşükten sonra ne kadar süre sonra tekrar gebelik planlanabilir?",
+    "answer": "Genellikle 3-6 ay beklenmesi önerilir."
+  },
+
+  {
+    "question": "Lohusalık dönemi nedir?",
+    "answer": "Doğumdan sonraki ilk 6 haftalık döneme lohusalık dönemi denir."
+  },
+  {
+    "question": "Lohusalık döneminde en sık görülen sorun nedir?",
+    "answer": "Kanama, enfeksiyon ve depresyon en sık görülen sorunlardır."
+  },
+  {
+    "question": "Lohusalıkta depresyon ne kadar sürede ortaya çıkar?",
+    "answer": "Genellikle doğumdan sonraki ilk 4 hafta içinde ortaya çıkar."
+  },
+  {
+    "question": "Emzirmenin anneye faydaları nelerdir?",
+    "answer": "Rahim küçülmesini hızlandırır, meme ve over kanseri riskini azaltır."
+  },
+  {
+    "question": "Anne sütü bebeğe ne gibi faydalar sağlar?",
+    "answer": "Bağışıklık sistemini güçlendirir, sindirimi kolaydır ve enfeksiyonlardan korur."
+  },
+  {
+    "question": "Emziren anneler hangi besinlerden uzak durmalıdır?",
+    "answer": "Aşırı kafein, alkol, çok baharatlı yiyeceklerden uzak durulmalıdır."
+  },
+  {
+    "question": "Meme ucu çatlakları nasıl önlenir?",
+    "answer": "Doğru emzirme pozisyonu ve nemlendirici kremlerle önlenebilir."
+  },
+  {
+    "question": "Mastit nedir?",
+    "answer": "Emzirme döneminde memede görülen enfeksiyondur."
+  },
+  {
+    "question": "Mastit belirtileri nelerdir?",
+    "answer": "Meme ağrısı, kızarıklık, ateş ve halsizlik."
+  },
+  {
+    "question": "Mastit tedavisi nasıl yapılır?",
+    "answer": "Antibiyotik tedavisi ve düzenli emzirme ile tedavi edilir."
+  },
+
+  {
+    "question": "Kadınlarda en sık görülen kanser türü nedir?",
+    "answer": "Meme kanseridir."
+  },
+  {
+    "question": "Meme kanseri riskini artıran faktörler nelerdir?",
+    "answer": "Aile öyküsü, ileri yaş, östrojen maruziyeti, obezite ve alkol kullanımı."
+  },
+  {
+    "question": "Meme kanseri belirtileri nelerdir?",
+    "answer": "Memede sert kitle, meme ucundan akıntı, ciltte çekinti."
+  },
+  {
+    "question": "Rahim ağzı kanserinin en önemli nedeni nedir?",
+    "answer": "HPV enfeksiyonudur."
+  },
+  {
+    "question": "HPV nasıl bulaşır?",
+    "answer": "Cinsel yolla bulaşır."
+  },
+  {
+    "question": "HPV aşısı hangi yaş grubuna önerilir?",
+    "answer": "9-26 yaş arası kadınlara önerilir."
+  },
+  {
+    "question": "HPV aşısı tedavi edici midir?",
+    "answer": "Hayır, sadece koruyucudur."
+  },
+  {
+    "question": "Yumurtalık kanseri erken dönemde belirti verir mi?",
+    "answer": "Genellikle belirti vermez, ileri evrede şişkinlik ve karın ağrısı görülür."
+  },
+  {
+    "question": "Yumurtalık kanseri risk faktörleri nelerdir?",
+    "answer": "Aile öyküsü, genetik mutasyonlar, ileri yaş ve doğum yapmamış olmak."
+  },
+  {
+    "question": "Rahim kanseri riskini artıran faktörler nelerdir?",
+    "answer": "Obezite, östrojen tedavisi ve geç menopoz."
+  },
+
+  {
+    "question": "Tüp bebek tedavisi nedir?",
+    "answer": "Laboratuvar ortamında döllenmiş embriyonun anne rahmine yerleştirilmesi işlemidir."
+  },
+  {
+    "question": "Tüp bebek tedavisi hangi durumlarda uygulanır?",
+    "answer": "Kısırlık, tüplerin tıkalı olması, ileri yaş, erkek faktörü gibi durumlarda."
+  },
+  {
+    "question": "Yumurtlama testi nedir?",
+    "answer": "İdrarda LH hormonunu ölçerek yumurtlama dönemini belirleyen testtir."
+  },
+  {
+    "question": "Kısırlığın kadınlarda en sık nedeni nedir?",
+    "answer": "Tüplerin tıkalı olması ve yumurtlama bozukluklarıdır."
+  },
+  {
+    "question": "Kısırlığın erkeklerde en sık nedeni nedir?",
+    "answer": "Sperm sayısı ve hareketliliğinde düşüklüktür."
+  },
+  {
+    "question": "Kısırlık tanısında hangi yöntemler kullanılır?",
+    "answer": "Hormon testleri, ultrason, rahim filmi ve sperm analizi."
+  },
+  {
+    "question": "Gebelikte ikili tarama testi ne zaman yapılır?",
+    "answer": "11-14. haftalar arasında yapılır."
+  },
+  {
+    "question": "Üçlü tarama testi hangi haftalarda yapılır?",
+    "answer": "16-20. haftalar arasında yapılır."
+  },
+  {
+    "question": "Dörtlü tarama testi nedir?",
+    "answer": "Bebeğin down sendromu riskini belirlemek için yapılan bir testtir."
+  },
+  {
+    "question": "Amniyosentez nedir?",
+    "answer": "Bebeğin genetik hastalıklarını tespit için amniyon sıvısından örnek alınmasıdır."
+  },
+
+  {
+    "question": "Doğum sonrası depresyon nedir?",
+    "answer": "Doğumdan sonraki dönemde görülen ciddi depresyon tablosudur."
+  },
+  {
+    "question": "Doğum sonrası depresyon belirtileri nelerdir?",
+    "answer": "Aşırı ağlama, uyku sorunları, bebeğe karşı ilgisizlik, suçluluk duygusu."
+  },
+  {
+    "question": "Kadınlarda idrar yolu enfeksiyonu neden sık görülür?",
+    "answer": "Üretranın kısa olması nedeniyle bakteriler kolayca mesaneye ulaşır."
+  },
+  {
+    "question": "İdrar yolu enfeksiyonunun belirtileri nelerdir?",
+    "answer": "Sık idrara çıkma, yanma, bulanık idrar ve karın ağrısı."
+  },
+  {
+    "question": "Vajinal mantar enfeksiyonu nedir?",
+    "answer": "Candida mantarının aşırı çoğalmasıyla oluşan enfeksiyondur."
+  },
+  {
+    "question": "Vajinal mantar enfeksiyonu belirtileri nelerdir?",
+    "answer": "Kaşıntı, beyaz peynir kesiği tarzında akıntı ve yanma."
+  },
+  {
+    "question": "Bakteriyel vajinozis nedir?",
+    "answer": "Vajinal bakterilerin dengesizliği sonucu oluşan enfeksiyondur."
+  },
+  {
+    "question": "Bakteriyel vajinozis belirtileri nelerdir?",
+    "answer": "Gri-beyaz akıntı ve kötü koku."
+  },
+  {
+    "question": "Pelvik inflamatuvar hastalık nedir?",
+    "answer": "Rahim, tüpler ve yumurtalıkların enfeksiyonudur."
+  },
+  {
+    "question": "Pelvik inflamatuvar hastalık hangi komplikasyonlara yol açabilir?",
+    "answer": "Kısırlık, tüplerin tıkanması ve kronik ağrı."
+  },
+
+  {
+    "question": "Kadınlarda idrar yolu enfeksiyonu en sık hangi sebeple olur?",
+    "answer": "Bakterilerin idrar yoluna girmesi, özellikle E. coli bakterisi en sık nedendir."
+  },
+  {
+    "question": "İdrar yolu enfeksiyonu belirtileri nelerdir?",
+    "answer": "Sık idrara çıkma, idrar yaparken yanma ve bulanık idrardır."
+  },
+  {
+    "question": "Tekrarlayan idrar yolu enfeksiyonları hangi hastalığın habercisi olabilir?",
+    "answer": "Şeker hastalığı veya böbrek taşı gibi durumlarla ilişkili olabilir."
+  },
+  {
+    "question": "Vajinal mantar enfeksiyonunun en yaygın belirtisi nedir?",
+    "answer": "Yoğun kaşıntı ve beyaz, peynirimsi akıntıdır."
+  },
+  {
+    "question": "Vajinal mantar enfeksiyonları genellikle ne ile tedavi edilir?",
+    "answer": "Antifungal kremler veya fitiller ile tedavi edilir."
+  },
+  {
+    "question": "Bakteriyel vajinozis nedir?",
+    "answer": "Vajina florasındaki dengenin bozulması sonucu oluşan bir enfeksiyondur."
+  },
+  {
+    "question": "Bakteriyel vajinozis belirtisi nedir?",
+    "answer": "Balık kokusuna benzer kötü kokulu gri-beyaz akıntıdır."
+  },
+  {
+    "question": "Klamidya enfeksiyonu nasıl bulaşır?",
+    "answer": "Cinsel yolla bulaşır."
+  },
+  {
+    "question": "Tedavi edilmemiş klamidya hangi soruna yol açabilir?",
+    "answer": "Kısırlık ve pelvik inflamatuar hastalık gelişebilir."
+  },
+  {
+    "question": "Pelvik inflamatuar hastalık nedir?",
+    "answer": "Rahim, tüpler ve yumurtalıkların iltihaplanmasıdır."
+  },
+
+  {
+    "question": "Kadınlarda en sık görülen kanser türü nedir?",
+    "answer": "Meme kanseridir."
+  },
+  {
+    "question": "Rahim ağzı kanseri en çok hangi virüsle ilişkilidir?",
+    "answer": "HPV virüsü ile ilişkilidir."
+  },
+  {
+    "question": "Over kanseri en sık hangi yaş grubunda görülür?",
+    "answer": "Genellikle 50 yaş üstü kadınlarda görülür."
+  },
+  {
+    "question": "Over kanserinin erken dönemde belirgin belirtisi var mıdır?",
+    "answer": "Hayır, genellikle belirgin semptom vermez."
+  },
+  {
+    "question": "Meme kanserinde en önemli risk faktörlerinden biri nedir?",
+    "answer": "Ailede meme kanseri öyküsünün olmasıdır."
+  },
+  {
+    "question": "Rahim ağzı kanseri hangi tarama ile önlenebilir?",
+    "answer": "Pap smear ve HPV testleri ile."
+  },
+  {
+    "question": "HPV aşısı hangi yaş grubuna önerilir?",
+    "answer": "9-26 yaş arası kızlara ve genç kadınlara önerilir."
+  },
+  {
+    "question": "Rahim kanserinde en sık görülen belirti nedir?",
+    "answer": "Adet dışı veya menopoz sonrası kanamadır."
+  },
+  {
+    "question": "Meme kanseri tanısında en güvenilir yöntem nedir?",
+    "answer": "Biyopsi."
+  },
+  {
+    "question": "Yumurtalık kanseri riski hangi faktörle azalır?",
+    "answer": "Doğum yapmak ve emzirmek riski azaltır."
+  },
+
+  {
+    "question": "Hamilelikte en çok görülen erken belirti nedir?",
+    "answer": "Adet gecikmesi."
+  },
+  {
+    "question": "Gebelikte sabah bulantıları ne zaman başlar?",
+    "answer": "Genellikle gebeliğin 6. haftasında başlar."
+  },
+  {
+    "question": "Gebelikte demir eksikliği neden önemlidir?",
+    "answer": "Anne ve bebekte kansızlığa yol açabilir."
+  },
+  {
+    "question": "Hamilelikte ultrason ne zaman yapılmalıdır?",
+    "answer": "Gebeliğin 6-8. haftalarında kalp atışını görmek için yapılabilir."
+  },
+  {
+    "question": "Gebelikte hangi vitamin mutlaka alınmalıdır?",
+    "answer": "Folik asit."
+  },
+  {
+    "question": "Hamilelikte sigara içmek neye yol açar?",
+    "answer": "Düşük doğum ağırlığı ve erken doğuma neden olabilir."
+  },
+  {
+    "question": "Gebelikte yüksek tansiyon hangi hastalığın belirtisi olabilir?",
+    "answer": "Preeklampsi."
+  },
+  {
+    "question": "Preeklampsinin en önemli belirtileri nelerdir?",
+    "answer": "Yüksek tansiyon, ödem ve idrarda protein."
+  },
+  {
+    "question": "Gestasyonel diyabet nedir?",
+    "answer": "Hamilelik sırasında ortaya çıkan şeker hastalığıdır."
+  },
+  {
+    "question": "Gestasyonel diyabet tanısı için hangi test yapılır?",
+    "answer": "Oral glukoz tolerans testi."
+  },
+
+  {
+    "question": "Kadınlarda menopoz ortalama kaç yaşında başlar?",
+    "answer": "45-55 yaş arasında başlar."
+  },
+  {
+    "question": "Menopozda en sık görülen şikayet nedir?",
+    "answer": "Ateş basmaları."
+  },
+  {
+    "question": "Menopoz sonrası kemik sağlığı için hangi test önemlidir?",
+    "answer": "Kemik yoğunluğu ölçümü (DEXA)."
+  },
+  {
+    "question": "Menopozda hormon tedavisi ne için kullanılır?",
+    "answer": "Ateş basmaları ve kemik erimesini önlemek için."
+  },
+  {
+    "question": "Menopozda hangi hastalık riski artar?",
+    "answer": "Osteoporoz ve kalp damar hastalıkları."
+  },
+  {
+    "question": "Osteoporoz nedir?",
+    "answer": "Kemiklerin zayıflayıp kırılgan hale gelmesidir."
+  },
+  {
+    "question": "Osteoporoz için en önemli mineral nedir?",
+    "answer": "Kalsiyum."
+  },
+  {
+    "question": "Kalsiyum emilimi için hangi vitamin gereklidir?",
+    "answer": "D vitamini."
+  },
+  {
+    "question": "Menopoz sonrası kanama neyin belirtisi olabilir?",
+    "answer": "Rahim kanseri belirtisi olabilir."
+  },
+  {
+    "question": "Menopoz sonrası kilo artışı hangi riskleri artırır?",
+    "answer": "Kalp hastalığı, diyabet ve hipertansiyon riskini artırır."
+  },
+
+  {
+    "question": "Kadınlarda kısırlık en sık hangi faktörle ilişkilidir?",
+    "answer": "Tüplerin tıkanıklığı ve yumurtlama problemleri."
+  },
+  {
+    "question": "Erken yaşta adet görmek hangi riski artırır?",
+    "answer": "Meme ve rahim kanseri riskini artırır."
+  },
+  {
+    "question": "Geç menopoza girmek hangi riski artırır?",
+    "answer": "Meme ve rahim kanseri riskini artırır."
+  },
+  {
+    "question": "Rahim içi araç (spiral) hangi amaçla kullanılır?",
+    "answer": "Gebeliği önlemek için."
+  },
+  {
+    "question": "Spiral enfeksiyon riskini artırır mı?",
+    "answer": "Uygun şartlarda takıldığında enfeksiyon riski çok düşüktür."
+  },
+  {
+    "question": "Doğum kontrol hapları hangi kanser riskini azaltır?",
+    "answer": "Over ve rahim kanseri riskini azaltır."
+  },
+  {
+    "question": "Doğum kontrol haplarının en yaygın yan etkisi nedir?",
+    "answer": "Kilo artışı ve baş ağrısı."
+  },
+  {
+    "question": "Kadınlarda idrar kaçırma hangi yaşlarda sık görülür?",
+    "answer": "Menopoz sonrası dönemde daha sık görülür."
+  },
+  {
+    "question": "İdrar kaçırma tedavisinde ilk basamak nedir?",
+    "answer": "Pelvik taban kas egzersizleri."
+  },
+  {
+    "question": "Pelvik taban kas egzersizlerine ne ad verilir?",
+    "answer": "Kegel egzersizleri."
+  },
+
+  {
+    "question": "Sezaryen doğumun en büyük risklerinden biri nedir?",
+    "answer": "Enfeksiyon ve iyileşme süresinin uzun olması."
+  },
+  {
+    "question": "Normal doğumun avantajı nedir?",
+    "answer": "Anne daha çabuk iyileşir ve bebek solunum problemleri daha az yaşar."
+  },
+  {
+    "question": "Sezaryen doğum sonrası anne ne kadar sürede toparlanır?",
+    "answer": "Genellikle 4-6 hafta içinde toparlanır."
+  },
+  {
+    "question": "Normal doğum sonrası iyileşme süresi nedir?",
+    "answer": "Genellikle 1-2 hafta içinde iyileşme olur."
+  },
+  {
+    "question": "Doğum sonrası depresyon belirtileri nelerdir?",
+    "answer": "Aşırı üzüntü, isteksizlik, bebeğe karşı ilgisizlik."
+  },
+  {
+    "question": "Doğum sonrası depresyon tedavi edilebilir mi?",
+    "answer": "Evet, psikoterapi ve gerekirse ilaç tedavisiyle iyileşir."
+  },
+  {
+    "question": "Emzirme ne kadar süre önerilir?",
+    "answer": "İlk 6 ay sadece anne sütü, sonrasında 2 yaşına kadar ek gıdalarla birlikte."
+  },
+  {
+    "question": "Anne sütünün en önemli faydası nedir?",
+    "answer": "Bebeği enfeksiyonlara karşı korumasıdır."
+  },
+  {
+    "question": "Emziren annelerin hangi vitamin ve minerali daha fazla alması gerekir?",
+    "answer": "Kalsiyum ve demir."
+  },
+  {
+    "question": "Emzirme annenin sağlığına nasıl katkı sağlar?",
+    "answer": "Rahim kasılmalarını artırarak lohusalıkta kanamayı azaltır."
+  },
+
+  {
+    "question": "Kadınlarda tiroit hastalıkları en çok hangi dönemde görülür?",
+    "answer": "Doğum sonrası ve menopoz döneminde."
+  },
+  {
+    "question": "Hipotiroidi kadınlarda hangi soruna yol açabilir?",
+    "answer": "Adet düzensizliği ve kısırlık."
+  },
+  {
+    "question": "Hipertiroidi kadınlarda hangi belirtiyle kendini gösterebilir?",
+    "answer": "Aşırı terleme, çarpıntı ve zayıflama."
+  },
+  {
+    "question": "Kadınlarda kansızlığın en sık sebebi nedir?",
+    "answer": "Demir eksikliğidir."
+  },
+  {
+    "question": "Demir eksikliği kansızlığı en çok hangi kadınlarda görülür?",
+    "answer": "Adetleri yoğun geçen veya hamile kadınlarda."
+  },
+  {
+    "question": "Demir eksikliğinin en yaygın belirtisi nedir?",
+    "answer": "Yorgunluk ve halsizlik."
+  },
+  {
+    "question": "Demir emilimini artırmak için hangi vitamin gereklidir?",
+    "answer": "C vitamini."
+  },
+  {
+    "question": "Kadınlarda kemik erimesi riski en çok hangi dönemde artar?",
+    "answer": "Menopoz sonrası dönemde."
+  },
+  {
+    "question": "Kemik erimesini önlemek için en çok hangi mineral gerekir?",
+    "answer": "Kalsiyum."
+  },
+  {
+    "question": "Kemik sağlığı için hangi egzersizler faydalıdır?",
+    "answer": "Yürüyüş, koşu ve ağırlık çalışmaları."
+  },
+
+  {
+    "question": "Kadınlarda en sık görülen ruhsal sorun nedir?",
+    "answer": "Depresyon."
+  },
+  {
+    "question": "Kadınlarda depresyon riskini artıran faktörlerden biri nedir?",
+    "answer": "Hormonal dalgalanmalar."
+  },
+  {
+    "question": "Kadınlarda anksiyete bozuklukları en çok hangi yaşlarda görülür?",
+    "answer": "Genellikle genç ve orta yaşlı kadınlarda."
+  },
+  {
+    "question": "Menopoz dönemi ruhsal olarak hangi soruna yol açabilir?",
+    "answer": "Kaygı ve depresyon."
+  },
+  {
+    "question": "Kadınlarda uyku bozukluğu en sık hangi dönemde olur?",
+    "answer": "Hamilelik ve menopoz döneminde."
+  },
+  {
+    "question": "Kadınlarda stres hangi hastalıkların riskini artırır?",
+    "answer": "Kalp hastalıkları ve adet düzensizlikleri."
+  },
+  {
+    "question": "Kadınlarda migren hangi faktörle tetiklenir?",
+    "answer": "Hormonal değişiklikler."
+  },
+  {
+    "question": "Kadınlarda obezite hangi hastalıkların riskini artırır?",
+    "answer": "Diyabet, hipertansiyon ve kalp hastalıkları."
+  },
+  {
+    "question": "Kadınlarda düzenli egzersiz yapmanın faydası nedir?",
+    "answer": "Kalp sağlığını korur ve adet düzenini olumlu etkiler."
+  },
+  {
+    "question": "Kadınların yılda bir kez yaptırması gereken en temel test nedir?",
+    "answer": "Jinekolojik muayene ve smear testi."
+  },
+
+  {
+    "question": "Adet düzensizliği hangi durumlarda normal kabul edilebilir?",
+    "answer": "Yeni adet görmeye başlayan genç kızlarda veya menopoz öncesi dönemde bazı düzensizlikler normal kabul edilebilir."
+  },
+  {
+    "question": "Adet ağrısı tedavisinde hangi yöntemler kullanılır?",
+    "answer": "Ağrı kesici ilaçlar, sıcak uygulama, hafif egzersiz ve yaşam tarzı değişiklikleri."
+  },
+  {
+    "question": "Premenstrüel sendromun belirtileri nelerdir?",
+    "answer": "Duygusal dalgalanmalar, şişkinlik, baş ağrısı ve yorgunluk."
+  },
+  {
+    "question": "Adet kanamasının yoğun olması neyin belirtisi olabilir?",
+    "answer": "Miyom, polip, hormonal dengesizlik veya pıhtılaşma bozuklukları."
+  },
+  {
+    "question": "Adet kanaması normalde kaç gün sürer?",
+    "answer": "3-7 gün arası normal kabul edilir."
+  },
+  {
+    "question": "Ergenlikte adet gecikmesinin olası sebepleri nelerdir?",
+    "answer": "Hormonal değişiklikler, stres, düşük kilo veya aşırı spor."
+  },
+  {
+    "question": "Kadınlarda menstrüasyon ile ilgili hangi hormonlar önemlidir?",
+    "answer": "Östrojen ve progesteron."
+  },
+  {
+    "question": "Adet öncesi göğüs hassasiyeti normal midir?",
+    "answer": "Evet, hormonal değişikliklerden kaynaklanır."
+  },
+  {
+    "question": "Adet düzensizliği hangi durumlarda ciddi bir sorun olabilir?",
+    "answer": "Şiddetli ağrı, aşırı kanama veya uzun süre adet görememe durumlarında."
+  },
+  {
+    "question": "Adet kanamasında pıhtı görülmesi normal midir?",
+    "answer": "Büyük pıhtılar sık ve yoğun kanamada görülebilir; sürekli ise doktora başvurulmalıdır."
+  },
+
+  {
+    "question": "Kadınların rutin jinekolojik muayenesi ne sıklıkla yapılmalıdır?",
+    "answer": "Genellikle yılda bir kez yapılması önerilir."
+  },
+  {
+    "question": "Pap smear hangi sıklıkla yapılmalıdır?",
+    "answer": "21 yaşından sonra her 3 yılda bir yapılması önerilir."
+  },
+  {
+    "question": "Meme muayenesi hangi yaşlardan itibaren önerilir?",
+    "answer": "20 yaşından itibaren düzenli olarak önerilir."
+  },
+  {
+    "question": "Mamografi hangi yaş grubuna önerilir?",
+    "answer": "40 yaş ve üzeri kadınlara önerilir."
+  },
+  {
+    "question": "Meme kanserinden korunmak için önerilen önlemler nelerdir?",
+    "answer": "Sağlıklı beslenme, düzenli egzersiz, alkol ve sigaradan kaçınma, kendi kendine muayene."
+  },
+  {
+    "question": "HPV testi ne amaçla yapılır?",
+    "answer": "Rahim ağzı kanseri riskini belirlemek için."
+  },
+  {
+    "question": "HPV aşısı ne zaman uygulanmalıdır?",
+    "answer": "9-26 yaş arası kız ve genç kadınlara önerilir."
+  },
+  {
+    "question": "HPV aşısı koruyucu mu tedavi edici mi?",
+    "answer": "Sadece koruyucudur, tedavi edici değildir."
+  },
+  {
+    "question": "Rahim ağzı kanserinin erken belirtisi nedir?",
+    "answer": "Adet dışı kanama."
+  },
+  {
+    "question": "Meme kanseri belirtileri nelerdir?",
+    "answer": "Memede kitle, cilt değişikliği, meme ucunda akıntı veya çekilme."
+  },
+  {
+    "question": "Kadınlarda over kanseri riskini artıran faktörler nelerdir?",
+    "answer": "Aile öyküsü, genetik mutasyonlar, ileri yaş ve doğum yapmamış olmak."
+  },
+
+  {
+    "question": "Polikistik over sendromu belirtileri nelerdir?",
+    "answer": "Adet düzensizliği, aşırı tüylenme, kilo alma, sivilce."
+  },
+  {
+    "question": "Polikistik over sendromu hangi hormon bozukluğu ile ilişkilidir?",
+    "answer": "Yüksek testosteron ve insülin direnci ile ilişkilidir."
+  },
+  {
+    "question": "Endometriozis belirtileri nelerdir?",
+    "answer": "Ağrılı adet, cinsel ilişki sırasında ağrı, kısırlık."
+  },
+  {
+    "question": "Endometriozis tedavi yöntemleri nelerdir?",
+    "answer": "İlaç tedavisi, hormonal tedavi veya cerrahi yöntemler."
+  },
+  {
+    "question": "Miyom nedir?",
+    "answer": "Rahim kas dokusunda gelişen iyi huylu tümörler."
+  },
+  {
+    "question": "Miyom tedavisi nasıl yapılır?",
+    "answer": "İlaç, hormon tedavisi veya cerrahi yöntemlerle."
+  },
+  {
+    "question": "Adet öncesi sendrom (PMS) tedavi yöntemleri nelerdir?",
+    "answer": "Yaşam tarzı değişiklikleri, beslenme, egzersiz ve gerekirse ilaç."
+  },
+  {
+    "question": "Kadınlarda sık görülen enfeksiyon türleri nelerdir?",
+    "answer": "Vajinal mantar enfeksiyonu, bakteriyel vajinozis, idrar yolu enfeksiyonu."
+  },
+  {
+    "question": "Vajinal mantar enfeksiyonu belirtileri nelerdir?",
+    "answer": "Kaşıntı, beyaz akıntı, yanma hissi."
+  },
+  {
+    "question": "Bakteriyel vajinozis belirtileri nelerdir?",
+    "answer": "Gri-beyaz akıntı ve kötü koku."
+  },
+  {
+    "question": "İdrar yolu enfeksiyonu belirtileri nelerdir?",
+    "answer": "Sık idrara çıkma, yanma, bulanık idrar."
+  },
+
+  {
+    "question": "Doğum kontrol hapları hangi mekanizmayla çalışır?",
+    "answer": "Yumurtlamayı engelleyerek gebeliği önler."
+  },
+  {
+    "question": "Doğum kontrol hapları düzenli adet sağlar mı?",
+    "answer": "Evet, düzenli kullanım adet döngüsünü dengeler."
+  },
+  {
+    "question": "Spiral (RİA) nasıl çalışır?",
+    "answer": "Rahim içinde gebeliği önleyen bir mekanizmadır."
+  },
+  {
+    "question": "Doğum sonrası ilk kontrol ne zaman yapılmalıdır?",
+    "answer": "Genellikle doğumdan 6 hafta sonra."
+  },
+  {
+    "question": "Emzirmenin anne sağlığına faydaları nelerdir?",
+    "answer": "Rahim kasılmalarını artırır, meme ve over kanseri riskini azaltır."
+  },
+  {
+    "question": "Emzirmenin bebek sağlığına faydaları nelerdir?",
+    "answer": "Bağışıklığı güçlendirir, sindirimi kolaydır, enfeksiyon riskini azaltır."
+  },
+  {
+    "question": "Mastit nedir?",
+    "answer": "Emzirme döneminde memede enfeksiyon oluşması."
+  },
+  {
+    "question": "Mastit tedavisi nasıldır?",
+    "answer": "Antibiyotik ve düzenli emzirme ile tedavi edilir."
+  },
+  {
+    "question": "Doğum sonrası depresyon belirtileri nelerdir?",
+    "answer": "Aşırı üzüntü, isteksizlik, bebeğe karşı ilgisizlik."
+  },
+  {
+    "question": "Doğum sonrası depresyon tedavi edilebilir mi?",
+    "answer": "Evet, psikoterapi ve gerekirse ilaç ile."
+  },
+
+  {
+    "question": "Gebelikte bulantı ve kusma ne zaman başlar?",
+    "answer": "Genellikle gebeliğin 6. haftasında başlar."
+  },
+  {
+    "question": "Gebelikte hangi vitaminin yeterli alınması zorunludur?",
+    "answer": "Folik asit, özellikle ilk trimesterde."
+  },
+  {
+    "question": "Gebelikte demir takviyesi neden önemlidir?",
+    "answer": "Anne ve bebekte kansızlığı önlemek için."
+  },
+  {
+    "question": "Gebelikte ultrason ne amaçla yapılır?",
+    "answer": "Bebeğin gelişimini ve sağlığını kontrol etmek için."
+  },
+  {
+    "question": "Gebelikte şeker yükleme testi ne zaman yapılır?",
+    "answer": "24-28. haftalar arasında."
+  },
+  {
+    "question": "Preeklampsi belirtileri nelerdir?",
+    "answer": "Yüksek tansiyon, idrarda protein, baş ağrısı ve ödem."
+  },
+  {
+    "question": "Erken doğum nedir?",
+    "answer": "37. haftadan önce doğum."
+  },
+  {
+    "question": "Erken doğum risk faktörleri nelerdir?",
+    "answer": "Çoğul gebelik, enfeksiyon, stres, rahim anomalileri."
+  },
+  {
+    "question": "Düşük tehdidi nedir?",
+    "answer": "20. haftadan önce kanama ve ağrı ile gelen durum."
+  },
+  {
+    "question": "Düşükten sonra ne kadar süre beklenmelidir?",
+    "answer": "Genellikle 3-6 ay önerilir."
+  },
+
+  {
+    "question": "Lohusalık dönemi nedir?",
+    "answer": "Doğum sonrası ilk 6 haftalık dönem."
+  },
+  {
+    "question": "Lohusalıkta en sık sorun nedir?",
+    "answer": "Kanama, enfeksiyon ve depresyon."
+  },
+  {
+    "question": "Emzirmenin anneye faydaları nelerdir?",
+    "answer": "Rahim küçülmesini hızlandırır, kanser riskini azaltır."
+  },
+  {
+    "question": "Emzirmenin bebeğe faydaları nelerdir?",
+    "answer": "Bağışıklığı güçlendirir, enfeksiyonları önler."
+  },
+  {
+    "question": "Mastit belirtileri nelerdir?",
+    "answer": "Meme ağrısı, kızarıklık, ateş."
+  },
+  {
+    "question": "Mastit tedavisi nasıl yapılır?",
+    "answer": "Antibiyotik ve düzenli emzirme."
+  },
+  {
+    "question": "Doğum sonrası depresyon belirtileri nelerdir?",
+    "answer": "Aşırı ağlama, isteksizlik, bebeğe karşı ilgisizlik."
+  },
+  {
+    "question": "Kadınlarda tiroit hastalıkları hangi dönemde sık görülür?",
+    "answer": "Doğum sonrası ve menopoz."
+  },
+  {
+    "question": "Hipotiroidi kadınlarda hangi soruna yol açabilir?",
+    "answer": "Adet düzensizliği ve kısırlık."
+  },
+  {
+    "question": "Hipertiroidi kadınlarda hangi belirtileri gösterir?",
+    "answer": "Çarpıntı, terleme, kilo kaybı."
+  },
+
+  {
+    "question": "Kadınlarda demir eksikliğinin en yaygın belirtisi nedir?",
+    "answer": "Yorgunluk ve halsizlik."
+  },
+  {
+    "question": "Demir emilimi için hangi vitamin önemlidir?",
+    "answer": "C vitamini."
+  },
+  {
+    "question": "Osteoporoz en çok hangi dönemde görülür?",
+    "answer": "Menopoz sonrası dönemde."
+  },
+  {
+    "question": "Kemik sağlığı için hangi mineral önemlidir?",
+    "answer": "Kalsiyum."
+  },
+  {
+    "question": "Kemik yoğunluğu ölçümü ne zaman yapılır?",
+    "answer": "Menopoz sonrası dönemde önerilir."
+  },
+  {
+    "question": "Menopozda en sık görülen belirti nedir?",
+    "answer": "Ateş basmaları."
+  },
+  {
+    "question": "Menopoz sonrası hormon tedavisi hangi amaçla kullanılır?",
+    "answer": "Ateş basması ve kemik erimesini önlemek için."
+  },
+  {
+    "question": "Kadınlarda ruhsal sorunların en sık nedeni nedir?",
+    "answer": "Hormonal dalgalanmalar ve stres."
+  },
+  {
+    "question": "Kadınlarda uyku bozukluğu en çok hangi dönemlerde görülür?",
+    "answer": "Hamilelik ve menopoz."
+  },
+  {
+    "question": "Kadınlarda depresyon riskini artıran faktörlerden biri nedir?",
+    "answer": "Hormonal değişiklikler."
+  },
+
+  {
+    "question": "Kadınlarda anksiyete hangi yaşlarda sık görülür?",
+    "answer": "Genç ve orta yaşlı kadınlarda."
+  },
+  {
+    "question": "Kadınlarda obezite hangi riskleri artırır?",
+    "answer": "Diyabet, hipertansiyon ve kalp hastalıkları."
+  },
+  {
+    "question": "Kadınlarda düzenli egzersiz yapmanın faydası nedir?",
+    "answer": "Kalp sağlığını korur, kemik sağlığını destekler."
+  },
+  {
+    "question": "Kadınların yılda bir kez yaptırması gereken testler nelerdir?",
+    "answer": "Jinekolojik muayene ve Pap smear testi."
+  },
+  {
+    "question": "Meme kanseri taraması için en güvenilir yöntem nedir?",
+    "answer": "Biyopsi."
+  },
+  {
+    "question": "Rahim ağzı kanseri taramasında hangi testler kullanılır?",
+    "answer": "Pap smear ve HPV testi."
+  },
+  {
+    "question": "HPV aşısı ne zaman uygulanır?",
+    "answer": "9-26 yaş arası."
+  },
+  {
+    "question": "Kadınlarda over kanseri erken dönemde belirti verir mi?",
+    "answer": "Genellikle vermez, ileri dönemde karın şişliği ve ağrı görülür."
+  },
+  {
+    "question": "Kadınlarda kısırlığın en sık sebebi nedir?",
+    "answer": "Tüplerin tıkanıklığı ve yumurtlama bozuklukları."
+  },
+  {
+    "question": "Tüp bebek tedavisi nedir?",
+    "answer": "Laboratuvarda döllenmiş embriyonun anne rahmine yerleştirilmesidir."
+  },
+
+  {
+    "question": "Kadınlarda en sık görülen cinsel yolla bulaşan hastalıklar nelerdir?",
+    "answer": "Klamidya, gonore, HPV, herpes ve HIV."
+  },
+  {
+    "question": "Klamidya enfeksiyonu tedavi edilmezse hangi soruna yol açabilir?",
+    "answer": "Pelvik inflamatuar hastalık ve kısırlık."
+  },
+  {
+    "question": "Gonore belirtileri nelerdir?",
+    "answer": "Adet dışında kanama, ağrı, idrar yaparken yanma."
+  },
+  {
+    "question": "HPV hangi kanser türü ile ilişkilidir?",
+    "answer": "Rahim ağzı kanseri."
+  },
+  {
+    "question": "Rahim ağzı kanseri taraması için hangi testler yapılır?",
+    "answer": "Pap smear ve HPV testi."
+  },
+  {
+    "question": "Kadınlarda meme kanseri için risk faktörleri nelerdir?",
+    "answer": "Aile öyküsü, ileri yaş, hormon tedavisi, obezite."
+  },
+  {
+    "question": "Meme kanseri erken belirtileri nelerdir?",
+    "answer": "Memede kitle, ciltte çekilme, meme ucundan akıntı."
+  },
+  {
+    "question": "Meme kanseri taraması için hangi yöntem önerilir?",
+    "answer": "Mamografi ve ultrason."
+  },
+  {
+    "question": "Kadınlarda over kanseri erken dönemde belirti verir mi?",
+    "answer": "Genellikle vermez, ileri dönemde karın şişliği ve ağrı görülür."
+  },
+  {
+    "question": "Over kanseri riskini artıran faktörler nelerdir?",
+    "answer": "Aile öyküsü, BRCA gen mutasyonu, doğum yapmamış olmak."
+  },
+  {
+    "question": "Polikistik over sendromu belirtileri nelerdir?",
+    "answer": "Adet düzensizliği, aşırı tüylenme, kilo artışı, sivilce."
+  },
+  {
+    "question": "Endometriozis nedir?",
+    "answer": "Rahim iç tabakasının rahim dışında yerleşmesi ile oluşan bir hastalıktır."
+  },
+  {
+    "question": "Endometriozis belirtileri nelerdir?",
+    "answer": "Ağrılı adet, cinsel ilişki sırasında ağrı, kısırlık."
+  },
+  {
+    "question": "Miyom nedir?",
+    "answer": "Rahim kas dokusunda gelişen iyi huylu tümörlerdir."
+  },
+  {
+    "question": "Miyom belirtileri nelerdir?",
+    "answer": "Ağır adet kanaması, pelvik ağrı, sık idrara çıkma."
+  },
+  {
+    "question": "Kadınlarda tiroit hastalıkları hangi dönemlerde sık görülür?",
+    "answer": "Doğum sonrası ve menopoz döneminde."
+  },
+  {
+    "question": "Hipotiroidi kadınlarda hangi sorunlara yol açabilir?",
+    "answer": "Adet düzensizliği, yorgunluk ve kısırlık."
+  },
+  {
+    "question": "Hipertiroidi belirtileri nelerdir?",
+    "answer": "Çarpıntı, kilo kaybı, terleme, sinirlilik."
+  },
+  {
+    "question": "Kadınlarda kemik erimesi riski hangi dönemde artar?",
+    "answer": "Menopoz sonrası dönemde."
+  },
+  {
+    "question": "Osteoporoz önlemek için hangi vitamin ve mineral gereklidir?",
+    "answer": "Kalsiyum ve D vitamini."
+  },
+  {
+    "question": "Kadınlarda menopoz belirtileri nelerdir?",
+    "answer": "Ateş basmaları, gece terlemeleri, ruhsal değişiklikler, vajinal kuruluk."
+  },
+  {
+    "question": "Kadınların yılda bir kez yaptırması önerilen testler nelerdir?",
+    "answer": "Jinekolojik muayene ve Pap smear testi."
+  },
+  {
+    "question": "Meme kanseri için kadınların kendi kendine yapması gereken kontrol nedir?",
+    "answer": "Kendi kendine meme muayenesi."
+  },
+  {
+    "question": "Kadınlarda idrar yolu enfeksiyonu belirtileri nelerdir?",
+    "answer": "Sık idrara çıkma, idrar yaparken yanma, bulanık idrar."
+  },
+  {
+    "question": "İdrar yolu enfeksiyonu tedavisinde ilk basamak nedir?",
+    "answer": "Antibiyotik tedavisi."
+  },
+  {
+    "question": "Vajinal mantar enfeksiyonu belirtileri nelerdir?",
+    "answer": "Kaşıntı, beyaz akıntı, yanma hissi."
+  },
+  {
+    "question": "Bakteriyel vajinozis belirtileri nelerdir?",
+    "answer": "Gri-beyaz akıntı ve kötü koku."
+  },
+  {
+    "question": "Kadınlarda kısırlık en sık hangi faktörle ilişkilidir?",
+    "answer": "Tüplerin tıkanıklığı ve yumurtlama bozuklukları."
+  },
+  {
+    "question": "Tüp bebek tedavisi nedir?",
+    "answer": "Laboratuvarda döllenmiş embriyonun anne rahmine yerleştirilmesidir."
+  },
+  {
+    "question": "Doğum kontrol hapları nasıl çalışır?",
+    "answer": "Yumurtlamayı engelleyerek gebeliği önler."
+  },
+  {
+    "question": "Spiral (RİA) hangi mekanizmayla gebeliği önler?",
+    "answer": "Rahim içinde embriyonun tutunmasını engeller."
+  },
+  {
+    "question": "Doğum sonrası depresyon belirtileri nelerdir?",
+    "answer": "Aşırı üzüntü, isteksizlik, bebeğe karşı ilgisizlik."
+  },
+  {
+    "question": "Emzirmenin anneye faydaları nelerdir?",
+    "answer": "Rahim kasılmalarını hızlandırır, kanser riskini azaltır."
+  },
+  {
+    "question": "Emzirmenin bebeğe faydaları nelerdir?",
+    "answer": "Bağışıklığı güçlendirir, enfeksiyon riskini azaltır."
+  },
+  {
+    "question": "Mastit nedir ve nasıl tedavi edilir?",
+    "answer": "Emzirme döneminde memede enfeksiyon oluşması; antibiyotik ve emzirme ile tedavi edilir."
+  },
+  {
+    "question": "Kadınlarda ruhsal sorunların en sık nedeni nedir?",
+    "answer": "Hormonal dalgalanmalar ve stres."
+  },
+  {
+    "question": "Kadınlarda uyku bozukluğu en çok hangi dönemlerde görülür?",
+    "answer": "Hamilelik ve menopoz dönemlerinde."
+  },
+  {
+    "question": "Kadınlarda anksiyete riskini artıran faktörler nelerdir?",
+    "answer": "Hormonal değişiklikler, stres ve genetik yatkınlık."
+  },
+  {
+    "question": "Kadınlarda obezite hangi hastalık risklerini artırır?",
+    "answer": "Diyabet, hipertansiyon ve kalp hastalıkları."
+  },
+  {
+    "question": "Kadınlarda düzenli egzersizin faydaları nelerdir?",
+    "answer": "Kalp sağlığını korur, kemik sağlığını destekler, ruhsal denge sağlar."
+  },
+  {
+    "question": "HPV aşısı hangi yaş grubuna önerilir?",
+    "answer": "9-26 yaş arası kız ve genç kadınlara."
+  },
+  {
+    "question": "Over kanseri belirtileri nelerdir?",
+    "answer": "Karın şişliği, ağrı, hazımsızlık, sık idrara çıkma."
+  },
+  {
+    "question": "Polikistik over sendromu tedavi yöntemleri nelerdir?",
+    "answer": "Hormonal tedavi, kilo kontrolü, ilaçlar ve yaşam tarzı değişiklikleri."
+  },
+
+  {
+    "question": "Adet döngüsü ortalama kaç gün sürer?",
+    "answer": "Adet döngüsü genellikle 28 gün sürer ancak 21-35 gün arası normal kabul edilir."
+  },
+  {
+    "question": "Adet dönemi kaç gün sürer?",
+    "answer": "Genellikle 3 ila 7 gün arasında sürer."
+  },
+  {
+    "question": "Adet düzensizliği nedir?",
+    "answer": "Adet kanamalarının normalden daha sık, seyrek, uzun veya kısa sürmesi durumudur."
+  },
+  {
+    "question": "Adet düzensizliği hangi nedenlerden kaynaklanır?",
+    "answer": "Hormonal bozukluklar, stres, kilo değişimleri, tiroit sorunları ve polikistik over sendromu gibi durumlar adet düzensizliğine yol açabilir."
+  },
+  {
+    "question": "Adet gecikmesi ne zaman normal kabul edilir?",
+    "answer": "7-10 güne kadar gecikmeler normal olabilir, daha uzun sürerse doktora başvurulmalıdır."
+  },
+  {
+    "question": "Adet gecikmesi her zaman hamilelik belirtisi midir?",
+    "answer": "Hayır, stres, aşırı egzersiz, kilo kaybı veya hormonal değişiklikler de adet gecikmesine yol açabilir."
+  },
+  {
+    "question": "Adet döneminde ağrı neden olur?",
+    "answer": "Rahmin kasılması sırasında salgılanan prostaglandin hormonu ağrıya neden olur."
+  },
+  {
+    "question": "Adet sancısı için evde yapılabilecek şeyler nelerdir?",
+    "answer": "Sıcak su torbası, hafif egzersiz, bitki çayları ve ağrı kesiciler faydalı olabilir."
+  },
+  {
+    "question": "Adet döneminde hangi besinlerden kaçınılmalı?",
+    "answer": "Kafein, aşırı tuzlu ve yağlı yiyeceklerden kaçınılmalıdır."
+  },
+  {
+    "question": "Adet öncesi sendrom (PMS) nedir?",
+    "answer": "Adet öncesinde görülen şişkinlik, sinirlilik, baş ağrısı, duygusal değişimlerdir."
+  },
+  {
+    "question": "PMS neden olur?",
+    "answer": "Östrojen ve progesteron hormonlarındaki dalgalanmalar PMS’ye neden olur."
+  },
+  {
+    "question": "PMS belirtileri nelerdir?",
+    "answer": "Göğüs hassasiyeti, ödem, yorgunluk, sinirlilik, iştah değişiklikleri görülebilir."
+  },
+  {
+    "question": "Adet döneminde egzersiz yapmak faydalı mı?",
+    "answer": "Evet, hafif egzersizler krampları ve stresi azaltır."
+  },
+  {
+    "question": "Adet döneminde yüzmek zararlı mı?",
+    "answer": "Hayır, hijyenik ürün kullanıldığı sürece yüzmekte sakınca yoktur."
+  },
+  {
+    "question": "Adet döneminde banyo yapılabilir mi?",
+    "answer": "Evet, duş almak hijyen için faydalıdır, uzun süre sıcak küvette kalmamak önerilir."
+  },
+  {
+    "question": "Adet kanı normalde ne renktir?",
+    "answer": "Kırmızı, kahverengi ya da koyu kırmızı olabilir. Gri ya da kötü kokulu kan enfeksiyon belirtisi olabilir."
+  },
+  {
+    "question": "Adet kanamasında pıhtı normal midir?",
+    "answer": "Küçük pıhtılar normaldir, sık ve büyük pıhtılar olursa doktora başvurulmalıdır."
+  },
+  {
+    "question": "Adet döneminde fazla kan kaybı nasıl anlaşılır?",
+    "answer": "2 saatte bir ped değiştirmek zorunda kalıyorsanız bu fazla kanamadır ve doktora görünmelisiniz."
+  },
+  {
+    "question": "Adet kanaması aşırı olursa ne olabilir?",
+    "answer": "Kansızlık, halsizlik ve baş dönmesine neden olabilir."
+  },
+  {
+    "question": "Adet dönemi kısa sürüyorsa bu normal mi?",
+    "answer": "2 günden kısa sürüyorsa hormonal veya rahim sorunlarının belirtisi olabilir."
+  },
+  {
+    "question": "Adet dönemi çok uzun sürerse ne anlama gelir?",
+    "answer": "7 günden uzun kanamalar miyom, polip veya hormonal bozukluklara bağlı olabilir."
+  },
+  {
+    "question": "Adet döneminde iştah artışı normal mi?",
+    "answer": "Evet, hormonal değişiklikler nedeniyle iştah artışı görülebilir."
+  },
+  {
+    "question": "Adet döneminde cinsel ilişki zararlı mı?",
+    "answer": "Tıbben zararlı değildir, ancak enfeksiyon riski artabilir."
+  },
+  {
+    "question": "Adet döneminde hamile kalınabilir mi?",
+    "answer": "Nadir de olsa evet, özellikle kısa döngüsü olan kadınlarda mümkündür."
+  },
+  {
+    "question": "Adet öncesi baş ağrısı neden olur?",
+    "answer": "Hormonal değişiklikler migreni tetikleyebilir."
+  },
+  {
+    "question": "Adet öncesi ruh hali değişiklikleri normal mi?",
+    "answer": "Evet, PMS nedeniyle duygusal dalgalanmalar yaşanabilir."
+  },
+  {
+    "question": "Adet döneminde baş dönmesi neden olur?",
+    "answer": "Kan kaybı, düşük tansiyon veya kansızlık sebep olabilir."
+  },
+  {
+    "question": "Adet döneminde halsizlik normal mi?",
+    "answer": "Evet, özellikle yoğun kanama varsa halsizlik görülebilir."
+  },
+  {
+    "question": "Adet döneminde demir takviyesi gerekli mi?",
+    "answer": "Yoğun kanaması olan kadınlarda demir takviyesi önerilebilir."
+  },
+  {
+    "question": "Adet düzensizliği hangi hastalıkların belirtisi olabilir?",
+    "answer": "Polikistik over sendromu, tiroit hastalıkları, rahim sorunları veya stres adet düzensizliğine neden olabilir."
+  },
+  {
+    "question": "Kadınlarda en sık görülen kanser türü hangisidir?",
+    "answer": "Meme kanseri."
+  },
+  {
+    "question": "Rahim ağzı kanseri hangi virüsle ilişkilidir?",
+    "answer": "Human Papilloma Virüs (HPV)."
+  },
+  {
+    "question": "HPV testi ne amaçla yapılır?",
+    "answer": "Rahim ağzı kanseri riskini belirlemek için."
+  },
+  {
+    "question": "Pap smear testi hangi amaçla yapılır?",
+    "answer": "Rahim ağzı kanseri taraması için."
+  },
+  {
+    "question": "Pap smear hangi sıklıkla yapılmalıdır?",
+    "answer": "21 yaşından itibaren her 3 yılda bir yapılmalıdır."
+  },
+  {
+    "question": "Pap smear testi hangi yaşlarda önerilmez?",
+    "answer": "21 yaşından küçük kadınlarda rutin olarak önerilmez."
+  },
+  {
+    "question": "HPV aşısı hangi yaş grubuna uygulanır?",
+    "answer": "9-26 yaş arası kız ve genç kadınlara."
+  },
+  {
+    "question": "HPV aşısı koruyucu mu tedavi edici mi?",
+    "answer": "Sadece koruyucudur, tedavi edici değildir."
+  },
+  {
+    "question": "Meme kanseri taramasında en güvenilir yöntem nedir?",
+    "answer": "Mamografi."
+  },
+  {
+    "question": "Mamografi hangi yaş grubuna önerilir?",
+    "answer": "40 yaş ve üzeri kadınlara önerilir."
+  },
+  {
+    "question": "Meme kanseri erken belirtileri nelerdir?",
+    "answer": "Memede kitle, ciltte çekilme, meme ucundan akıntı."
+  },
+  {
+    "question": "Kadınlarda over kanseri erken dönemde belirti verir mi?",
+    "answer": "Genellikle vermez, ileri dönemde karın şişliği ve ağrı görülür."
+  },
+  {
+    "question": "Over kanseri risk faktörleri nelerdir?",
+    "answer": "Aile öyküsü, BRCA gen mutasyonu, doğum yapmamış olmak."
+  },
+  {
+    "question": "Rahim kanseri hangi yaş grubunda daha sık görülür?",
+    "answer": "50 yaş ve üzeri kadınlarda."
+  },
+  {
+    "question": "Rahim kanseri riskini artıran faktörler nelerdir?",
+    "answer": "Menopoz sonrası hormon dengesizliği, obezite ve polikistik over sendromu."
+  },
+  {
+    "question": "Meme kanseri risk faktörleri nelerdir?",
+    "answer": "Aile öyküsü, ileri yaş, hormon tedavisi, obezite."
+  },
+  {
+    "question": "Kadınlarda kanser taramalarının amacı nedir?",
+    "answer": "Kanseri erken dönemde yakalayarak tedavi başarısını artırmak."
+  },
+  {
+    "question": "Pap smear testi sırasında neler yapılır?",
+    "answer": "Rahim ağzından hücre örneği alınır ve laboratuvarda incelenir."
+  },
+  {
+    "question": "Mamografi nasıl yapılır?",
+    "answer": "Memeler iki plak arasına sıkıştırılarak röntgen çekilir."
+  },
+  {
+    "question": "Kadınlarda meme kendini muayene ne sıklıkla yapılmalıdır?",
+    "answer": "Her ay, adet bitiminden 3-5 gün sonra önerilir."
+  },
+  {
+    "question": "Kadınlarda yüksek riskli meme kanseri grubu kimlerdir?",
+    "answer": "Ailede meme veya over kanseri öyküsü olanlar."
+  },
+  {
+    "question": "BRCA gen mutasyonu nedir?",
+    "answer": "Meme ve over kanseri riskini artıran genetik mutasyon."
+  },
+  {
+    "question": "Kadınlarda rahim ağzı kanserinin erken belirtisi nedir?",
+    "answer": "Adet dışı kanama."
+  },
+  {
+    "question": "Kadınlarda meme kanseri belirtileri nelerdir?",
+    "answer": "Memede kitle, cilt değişikliği, meme ucunda çekilme veya akıntı."
+  },
+  {
+    "question": "Over kanseri belirtileri nelerdir?",
+    "answer": "Karın şişliği, karın ağrısı, hazımsızlık, sık idrara çıkma."
+  },
+  {
+    "question": "Rahim kanseri belirtileri nelerdir?",
+    "answer": "Adet dışı kanama, vajinal akıntı, pelvik ağrı."
+  },
+  {
+    "question": "Meme kanseri tedavisinde hangi yöntemler vardır?",
+    "answer": "Cerrahi, radyoterapi, kemoterapi ve hormon tedavisi."
+  },
+  {
+    "question": "Rahim kanseri tedavisi nasıldır?",
+    "answer": "Cerrahi müdahale ve gerekirse radyoterapi veya kemoterapi."
+  },
+  {
+    "question": "Over kanseri tedavi yöntemleri nelerdir?",
+    "answer": "Cerrahi ve kemoterapi."
+  },
+  {
+    "question": "Kadınlarda kanser taramasında ultrason hangi durumda kullanılır?",
+    "answer": "Meme veya over taramasında ek görüntüleme yöntemi olarak."
+  },
+  {
+    "question": "Meme MR’ı ne zaman önerilir?",
+    "answer": "Yüksek riskli kadınlarda veya mamografide şüpheli bulgular varsa."
+  },
+  {
+    "question": "Kadınlarda kanser taramaları neden önemlidir?",
+    "answer": "Erken teşhis, tedavi başarısını artırır ve mortaliteyi azaltır."
+  },
+  {
+    "question": "HPV testi kaç yılda bir yapılmalıdır?",
+    "answer": "30 yaş ve üzeri kadınlarda 5 yılda bir."
+  },
+  {
+    "question": "Rahim ağzı kanseri hangi yaş grubunda sık görülür?",
+    "answer": "30-50 yaş arası."
+  },
+  {
+    "question": "Kadınlarda meme kanseri riski hangi faktörlerle artar?",
+    "answer": "Geç menopoz, erken menarş, hormon tedavisi, obezite."
+  },
+  {
+    "question": "Meme kanserinde kitle hangi özelliktedir?",
+    "answer": "Çoğunlukla sert, ağrısız ve sınırları düzensiz."
+  },
+  {
+    "question": "Kadınlarda over kanseri hangi yaşlarda sık görülür?",
+    "answer": "50 yaş ve üzeri."
+  },
+  {
+    "question": "Kadınlarda kanser taraması ne zaman başlamalıdır?",
+    "answer": "Pap smear 21 yaşında, mamografi 40 yaşında başlamalıdır."
+  },
+  {
+    "question": "Kadınlarda kendi kendine meme muayenesi neden önemlidir?",
+    "answer": "Erken kitle tespitini sağlar ve farkındalık artırır."
+  },
+  {
+    "question": "Kadınlarda over kanseri riskini azaltan faktörler nelerdir?",
+    "answer": "Doğum yapmak, uzun süreli emzirme, doğum kontrol hapları kullanımı."
+  },
+  {
+    "question": "HPV aşısı kanserden tamamen korur mu?",
+    "answer": "Hayır, sadece yüksek riskli HPV tiplerine karşı korur."
+  },
+  {
+    "question": "Kadınlarda rahim ağzı kanseri önlenebilir mi?",
+    "answer": "Düzenli tarama ve HPV aşısı ile büyük ölçüde önlenebilir."
+  },
+  {
+    "question": "Meme kanserinde genetik testler hangi durumda yapılır?",
+    "answer": "Aile öyküsü olan veya genç yaşta kanser vakası görülen kadınlarda."
+  },
+  {
+    "question": "Meme kanseri tedavisinde cerrahi seçenekler nelerdir?",
+    "answer": "Lumpektomi (kitle çıkarma) ve mastektomi (meme alınması)."
+  },
+  {
+    "question": "Kadınlarda rahim kanseri riski hangi faktörlerle artar?",
+    "answer": "Obezite, uzun süre hormon tedavisi ve polikistik over sendromu."
+  },
+  {
+    "question": "Kadınlarda over kanseri belirtileri genellikle hangi dönemde fark edilir?",
+    "answer": "Hastalığın ileri döneminde fark edilir."
+  },
+  {
+    "question": "Kadınlarda kanser taramalarında ultrason ne amaçla kullanılır?",
+    "answer": "Meme veya over görüntülemesi için destekleyici yöntemdir."
+  },
+  {
+    "question": "Meme kanseri erken tanısı nasıl sağlanır?",
+    "answer": "Mamografi, ultrason, kendi kendine muayene ve düzenli kontrollerle."
+  },
+  {
+    "question": "Pap smear negatif çıkan bir kadın hangi sıklıkta tekrar test yaptırmalıdır?",
+    "answer": "3 yılda bir."
+  },
+  {
+    "question": "Kadınlarda over kanseri riski genetik olarak artabilir mi?",
+    "answer": "Evet, BRCA1 ve BRCA2 mutasyonu taşıyan kadınlarda risk artar."
+  },
+  {
+    "question": "Meme kanseri tedavisinde radyoterapi ne zaman uygulanır?",
+    "answer": "Cerrahi sonrası tümörün tekrarını önlemek için."
+  },
+  {
+    "question": "Kadınlarda rahim ağzı kanseri hangi yaşlarda nadiren görülür?",
+    "answer": "21 yaş altı kadınlarda nadirdir."
+  },
+  {
+    "question": "Over kanseri erken teşhisi kolay mıdır?",
+    "answer": "Hayır, erken dönemde belirti vermediği için zordur."
+  },
+  {
+    "question": "Meme kanserinde hormon tedavisi hangi durumlarda uygulanır?",
+    "answer": "Östrojen veya progesteron reseptörü pozitif tümörlerde."
+  },
+  {
+    "question": "Kadınlarda kanser taramalarının önemi nedir?",
+    "answer": "Erken teşhis ve tedavi başarısını artırmak için."
+  },
+  {
+    "question": "Kadınlarda HPV testi negatif ise ne zaman tekrar yapılır?",
+    "answer": "5 yıl sonra yapılabilir."
+  },
+  {
+    "question": "Kadınlarda rahim ağzı kanseri hangi yöntemlerle önlenebilir?",
+    "answer": "Düzenli Pap smear ve HPV aşısı."
+  },
+  {
+    "question": "Kadınlarda meme kanseri riskini azaltan önlemler nelerdir?",
+    "answer": "Sağlıklı beslenme, düzenli egzersiz, alkol ve sigaradan kaçınma."
+  },
+  {
+    "question": "Kadınlarda kanser taramaları hangi yaşlardan itibaren başlar?",
+    "answer": "Pap smear 21 yaşında, mamografi 40 yaşında başlamalıdır."
+  },
+  
+  {
+    "question": "Kadınların yılda bir yaptırması önerilen temel jinekolojik test nedir?",
+    "answer": "Pap smear testi."
+  },
+  {
+    "question": "Pap smear testi hangi sıklıkla yapılmalıdır?",
+    "answer": "21-65 yaş arası kadınlarda genellikle 3 yılda bir."
+  },
+  {
+    "question": "HPV testi ne amaçla yapılır?",
+    "answer": "Rahim ağzı kanseri riskini belirlemek için."
+  },
+  {
+    "question": "HPV testi hangi yaş grubuna önerilir?",
+    "answer": "30 yaş ve üzeri kadınlara."
+  },
+  {
+    "question": "Meme kanseri taraması için hangi test önerilir?",
+    "answer": "Mamografi."
+  },
+  {
+    "question": "Mamografi hangi sıklıkla yapılmalıdır?",
+    "answer": "40-69 yaş arası kadınlarda 2 yılda bir."
+  },
+  {
+    "question": "Kadınların kendi kendine meme muayenesi ne sıklıkla yapılmalıdır?",
+    "answer": "Her ay, adet bitiminden 3-5 gün sonra."
+  },
+  {
+    "question": "Ultrason hangi durumlarda önerilir?",
+    "answer": "Mamografide şüpheli bulgu varsa veya over ve rahim taraması için."
+  },
+  {
+    "question": "Kemik yoğunluğu ölçümü ne zaman yapılmalıdır?",
+    "answer": "Menopoz sonrası kadınlarda, osteoporoz riskini değerlendirmek için."
+  },
+  {
+    "question": "Hormon testleri hangi durumlarda yapılır?",
+    "answer": "Adet düzensizliği, kısırlık veya menopoz belirtileri varsa."
+  },
+  {
+    "question": "Kan tahlilleri kadınlarda ne amaçla yapılır?",
+    "answer": "Demir, vitamin ve hormon seviyelerini kontrol etmek için."
+  },
+  {
+    "question": "TSH testi hangi amaçla yapılır?",
+    "answer": "Tiroid fonksiyonlarını değerlendirmek için."
+  },
+  {
+    "question": "Kadınlarda C vitamini ve demir takibi hangi testle yapılır?",
+    "answer": "Kan testi ile."
+  },
+  {
+    "question": "Pap smear testi hangi yaşta başlanır?",
+    "answer": "21 yaşından itibaren."
+  },
+  {
+    "question": "HPV aşısı yaptırmış kadınlar Pap smear yaptırmalı mı?",
+    "answer": "Evet, rutin taramalar devam etmelidir."
+  },
+  {
+    "question": "Meme ultrasonu kimlere önerilir?",
+    "answer": "Yoğun meme dokusuna sahip kadınlar veya şüpheli bulgu olanlar."
+  },
+  {
+    "question": "Over ve rahim ultrasonu ne sıklıkla yapılmalıdır?",
+    "answer": "Genellikle yıllık kontrollerde."
+  },
+  {
+    "question": "Kanser taramaları hangi yaşlardan itibaren başlar?",
+    "answer": "Pap smear 21 yaş, mamografi 40 yaşından itibaren."
+  },
+  {
+    "question": "Kadınlarda düzenli idrar testi hangi amaçla yapılır?",
+    "answer": "İdrar yolu enfeksiyonu ve böbrek sağlığını kontrol etmek için."
+  },
+  {
+    "question": "Kadınlarda kan basıncı ölçümü ne sıklıkla önerilir?",
+    "answer": "Yılda en az bir kez."
+  },
+  {
+    "question": "Kolesterol testi kadınlarda hangi amaçla yapılır?",
+    "answer": "Kalp hastalığı riskini değerlendirmek için."
+  },
+  {
+    "question": "Kan şekeri testi ne zaman önerilir?",
+    "answer": "Diyabet riskini değerlendirmek için, özellikle 40 yaş sonrası."
+  },
+  {
+    "question": "HIV testi kimlere önerilir?",
+    "answer": "Cinsel olarak aktif kadınlar veya risk grubundaki kadınlara."
+  },
+  {
+    "question": "Hepatit B ve C testleri hangi durumlarda yapılır?",
+    "answer": "Riskli gruplarda veya gebelik öncesi."
+  },
+  {
+    "question": "Gebelik testi hangi yöntemle yapılır?",
+    "answer": "İdrar veya kanda gebelik hormonu (hCG) ölçümü ile."
+  },
+  {
+    "question": "Kadınlarda rutin tam kan sayımı ne amaçla yapılır?",
+    "answer": "Anemi ve enfeksiyon gibi durumları kontrol etmek için."
+  },
+  {
+    "question": "D vitamini testi ne zaman önerilir?",
+    "answer": "Kemik sağlığı riski olan kadınlarda ve güneş ışığı az alanlarda."
+  },
+  {
+    "question": "Folik asit takibi hangi durumlarda önemlidir?",
+    "answer": "Gebelik öncesi ve gebelikte nöral tüp defektlerini önlemek için."
+  },
+  {
+    "question": "Pap smear testi sırasında hangi örnek alınır?",
+    "answer": "Rahim ağzı hücre örneği."
+  },
+  {
+    "question": "Kadınlarda periyodik jinekolojik muayene ne sıklıkla önerilir?",
+    "answer": "Yılda bir kez."
+  },
+  {
+    "question": "HPV testi hangi sıklıkta tekrarlanır?",
+    "answer": "Negatifse 5 yılda bir."
+  },
+  {
+    "question": "Mamografi sonrası meme kontrolü ne zaman yapılır?",
+    "answer": "Anormal bulgu varsa, doktor takibiyle."
+  },
+  {
+    "question": "Kadınlarda kemik yoğunluğu ölçümü kaç yılda bir yapılır?",
+    "answer": "Risk grubuna göre 2-5 yılda bir."
+  },
+  {
+    "question": "Hormon testleri kadınlarda hangi aralıklarla yapılır?",
+    "answer": "Şikayete veya risk faktörüne göre değişir, genellikle yılda bir."
+  },
+  {
+    "question": "Kadınlarda rahim ağzı kanseri erken tanısı hangi testle olur?",
+    "answer": "Pap smear ve HPV testi ile."
+  },
+  {
+    "question": "Kadınlarda meme kanseri erken tanısı için hangi testler gerekir?",
+    "answer": "Mamografi ve ultrason."
+  },
+  {
+    "question": "Kan basıncı ve kolesterol ölçümü hangi yaşlardan itibaren önemlidir?",
+    "answer": "30 yaş ve üzeri kadınlarda."
+  },
+  {
+    "question": "Kadınlarda tam idrar tahlili hangi durumları kontrol eder?",
+    "answer": "İdrar yolu enfeksiyonu, böbrek hastalıkları."
+  },
+  {
+    "question": "HIV, Hepatit ve diğer cinsel yolla bulaşan hastalık testleri hangi yaşta önerilir?",
+    "answer": "Risk grubuna göre, cinsel olarak aktif olan genç yetişkinlerde."
+  },
+  {
+    "question": "Kadınlarda kanser taraması ne zaman başlar?",
+    "answer": "Pap smear 21 yaş, mamografi 40 yaşından itibaren."
+  },
+  {
+    "question": "Meme kendi kendine muayenesi hangi amaçla yapılır?",
+    "answer": "Erken kitle tespiti ve farkındalık için."
+  },
+  {
+    "question": "Over ve rahim ultrasonu hangi yaşta önerilir?",
+    "answer": "30 yaş ve üzeri veya risk grubunda kadınlara."
+  },
+  {
+    "question": "Kan şekeri ve lipid profili hangi sıklıkla kontrol edilmelidir?",
+    "answer": "40 yaş sonrası, yılda bir kez veya risk durumuna göre."
+  },
+  {
+    "question": "Kadınlarda folik asit ve vitamin takibi ne amaçla yapılır?",
+    "answer": "Gebelik öncesi ve gebelik sırasında eksiklikleri önlemek için."
+  },
+  {
+    "question": "Kadınlarda tam kan sayımı hangi durumlarda önemlidir?",
+    "answer": "Anemi, enfeksiyon ve genel sağlık kontrolü için."
+  },
+  {
+    "question": "Pap smear ve HPV testleri birlikte yapılabilir mi?",
+    "answer": "Evet, daha güvenli bir tarama sağlar."
+  },
+  {
+    "question": "Kadınların hangi durumlarda sık ultrason taraması yaptırması önerilir?",
+    "answer": "Over kisti veya tümör riski varsa."
+  },
+  {
+    "question": "Kadınların rutin jinekolojik kontrolleri hangi amaçla yapılır?",
+    "answer": "Adet, hormon, kanser ve enfeksiyon risklerini değerlendirmek için."
+  },
+  {
+    "question": "Meme kanseri riskini azaltmak için hangi testler önemlidir?",
+    "answer": "Mamografi, ultrason ve kendi kendine muayene."
+  },
+  {
+    "question": "Kadınların yılda bir yaptırması gereken testler hangileridir?",
+    "answer": "Jinekolojik muayene, Pap smear, kan testleri, kan basıncı ve mamografi (40 yaş üstü)."
+  }
+]
+
+
+
+
+
+
+
+
+
+

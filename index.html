@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadın Sağlığı AI - Güvenilir Sağlık Platformu</title>
+    <meta name="description" content="AI destekli kadın sağlığı platformu. Risk analizi ve uzman bilgileriyle sağlığınızı koruyun.">
+    <meta name="keywords" content="kadın sağlığı, meme kanseri, AI chatbot, sağlık analizi, tarama testleri">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💗</text></svg>">
+    
+    <style>
+        /* Modern CSS Variables */
+        :root {
+            --primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --primary-solid: #667eea;
+            --primary-light: #f0f2ff;
+            --secondary: #764ba2;
+            --accent: #ff6b9d;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --info: #3b82f6;
+            
+            --text-primary: #1a202c;
+            --text-secondary: #4a5568;
+            --text-muted: #718096;
+            --text-light: #a0aec0;
+            
+            --bg-primary: #ffffff;
+            --bg-secondary: #f7fafc;
+            --bg-light: #edf2f7;
+            --border: #e2e8f0;
+            --border-light: #f1f5f9;
+            
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            --shadow-md: 0 4px 6px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.06);
+            --shadow-lg: 0 10px 15px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.05);
+            --shadow-xl: 0 25px 50px rgba(0,0,0,0.25);
+            
+            --radius: 16px;
+            --radius-sm: 8px;
+            --radius-lg: 24px;
+            
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--bg-secondary);
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Loading Animation */
+        .page-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: var(--bg-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            opacity: 1;
+            transition: opacity 0.5s ease;
+        }
+
+        .loader-content {
+            text-align: center;
+            animation: pulse 2s infinite;
+        }
+
+        .loader-icon {
+            font-size: 4rem;
+            background: var(--primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        /* Header & Navigation */
+        .navbar {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-light);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: var(--transition);
+        }
+
+        .navbar.scrolled {
+            background: rgba(255, 255, 255, 0.98);
+            box-shadow: var(--shadow-md);
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .nav-logo-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--primary);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.25rem;
+        }
+
+        .nav-logo-text {
+            background: var(--primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-sm);
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-menu a:hover {
+            color: var(--primary-solid);
+            background: var(--primary-light);
+        }
+
+        .nav-menu a.active {
+            color: var(--primary-solid);
+            background: var(--primary-light);
+        }
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            padding: 0.5rem;
+            border: none;
+            background: none;
+            font-size: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: var(--primary);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" fill="white" opacity="0.1"><circle cx="200" cy="100" r="50"/><circle cx="800" cy="200" r="80"/><circle cx="1000" cy="400" r="60"/><path d="M0,300 Q300,200 600,300 T1200,300 V600 H0 Z" fill="white" opacity="0.05"/></svg>') no-repeat center;
+            background-size: cover;
+            animation: float 20s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            33% { transform: translateY(-10px) rotate(1deg); }
+            66% { transform: translateY(5px) rotate(-1deg); }
+        }
+
+        .hero-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-content h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 800;
+            color: white;
+            margin-bottom: 1.5rem;
+            line-height: 1.1;
+        }
+
+        .hero-content p {
+            font-size: 1.25rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem 2rem;
+            border-radius: var(--radius);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: var(--transition);
+            min-height: 52px;
+            justify-content: center;
+        }
+
+        .btn-primary {
+            background: white;
+            color: var(--primary-solid);
+            border-color: white;
+        }
+
+        .btn-primary:hover {
+            background: transparent;
+            color: white;
+            border-color: white;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: white;
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .btn-outline:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: white;
+        }
+
+        .hero-visual {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: var(--radius-lg);
+            padding: 3rem;
+            text-align: center;
+            color: white;
+            animation: cardFloat 6s ease-in-out infinite;
+        }
+
+        @keyframes cardFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .hero-card-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            opacity: 0.9;
+        }
+
+        .hero-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 6rem 0;
+            background: var(--bg-primary);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: var(--primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 2.5rem;
+            text-align: center;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--primary);
+            transform: scaleX(0);
+            transition: var(--transition);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--primary-solid);
+        }
+
+        .feature-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.5rem;
+            border-radius: 20px;
+            background: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: white;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .feature-card p {
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Health Topics */
+        .health-topics {
+            padding: 6rem 0;
+            background: var(--bg-secondary);
+        }
+
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+        }
+
+        .topic-card {
+            background: var(--bg-primary);
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+        }
+
+        .topic-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .topic-header {
+            padding: 2rem;
+            background: var(--primary);
+            color: white;
+            text-align: center;
+        }
+
+        .topic-header h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .topic-content {
+            padding: 2rem;
+        }
+
+        .topic-list {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .topic-list li {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.5rem 0;
+            color: var(--text-secondary);
+        }
+
+        .topic-list li i {
+            color: var(--success);
+            font-size: 0.875rem;
+        }
+
+        /* AI Test Section */
+        .ai-test {
+            padding: 6rem 0;
+            background: var(--bg-primary);
+        }
+
+        .test-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .test-form-wrapper {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 3rem;
+            box-shadow: var(--shadow-lg);
+            position: sticky;
+            top: 120px;
+        }
+
+        .form-title {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .form-title h3 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .form-title p {
+            color: var(--text-secondary);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid var(--border);
+            border-radius: var(--radius-sm);
+            font-size: 1rem;
+            transition: var(--transition);
+            background: var(--bg-primary);
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--primary-solid);
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .bmi-group {
+            position: relative;
+        }
+
+        .bmi-calc-btn {
+            position: absolute;
+            right: 8px;
+            top: 32px;
+            background: var(--primary-solid);
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: var(--transition);
+        }
+
+        .bmi-calc-btn:hover {
+            background: var(--secondary);
+        }
+
+        .submit-btn {
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .loading .btn-text { display: none; }
+        .loading .btn-loading { display: inline-flex; }
+        .btn-loading { display: none; }
+
+        /* Results */
+        .results-area {
+            min-height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .result-card {
+            background: var(--bg-primary);
+            border-radius: var(--radius);
+            padding: 3rem;
+            box-shadow: var(--shadow-lg);
+            width: 100%;
+            animation: slideUp 0.5s ease;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .result-card.low-risk { border-left: 6px solid var(--success); }
+        .result-card.medium-risk { border-left: 6px solid var(--warning); }
+        .result-card.high-risk { border-left: 6px solid var(--danger); }
+
+        .result-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .result-score {
+            margin: 1.5rem 0;
+        }
+
+        .score-value {
+            font-size: 4rem;
+            font-weight: 800;
+            background: var(--primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: block;
+        }
+
+        .risk-level {
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        .low-risk .risk-level { color: var(--success); }
+        .medium-risk .risk-level { color: var(--warning); }
+        .high-risk .risk-level { color: var(--danger); }
+
+        .recommendation {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: var(--radius-sm);
+            margin: 2rem 0;
+            border-left: 4px solid var(--primary-solid);
+        }
+
+        .progress-container {
+            background: var(--bg-light);
+            border-radius: 12px;
+            height: 12px;
+            margin: 2rem 0;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            border-radius: 12px;
+            transition: width 1.5s ease;
+        }
+
+        .actions-list {
+            list-style: none;
+        }
+
+        .actions-list li {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.75rem;
+            margin-bottom: 0.5rem;
+            background: rgba(102, 126, 234, 0.05);
+            border-radius: var(--radius-sm);
+        }
+
+        .actions-list i {
+            color: var(--primary-solid);
+            font-size: 1.125rem;
+        }
+
+        /* Floating Chatbot */
+        .floating-chatbot {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 999;
+        }
+
+        .chat-toggle-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: var(--primary);
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: var(--shadow-lg);
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .chat-toggle-btn:hover {
+            transform: scale(1.1);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .floating-chat-container {
+            position: absolute;
+            bottom: 80px;
+            right: 0;
+            width: 380px;
+            height: 500px;
+            background: var(--bg-primary);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-xl);
+            display: none;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .floating-chat-container.active {
+            display: flex;
+        }
+
+        .floating-chat-header {
+            background: var(--primary);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .floating-chat-header h4 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .floating-chat-messages {
+            flex: 1;
+            padding: 1rem;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            background: linear-gradient(to bottom, #f8fafc, #f1f5f9);
+        }
+
+        .floating-message {
+            max-width: 80%;
+            padding: 0.75rem 1rem;
+            border-radius: 15px;
+            line-height: 1.5;
+            font-size: 0.9rem;
+            animation: messageIn 0.3s ease;
+        }
+
+        @keyframes messageIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .floating-user-message {
+            background: var(--primary-solid);
+            color: white;
+            align-self: flex-end;
+            border-bottom-right-radius: 4px;
+        }
+
+        .floating-bot-message {
+            background: white;
+            color: var(--text-primary);
+            align-self: flex-start;
+            border-bottom-left-radius: 4px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border);
+        }
+
+        .floating-chat-input-area {
+            display: flex;
+            padding: 1rem;
+            gap: 0.5rem;
+            border-top: 1px solid var(--border);
+            background: var(--bg-primary);
+        }
+
+        .floating-chat-input {
+            flex: 1;
+            padding: 0.75rem;
+            border: 2px solid var(--border);
+            border-radius: 20px;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .floating-chat-input:focus {
+            outline: none;
+            border-color: var(--primary-solid);
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .floating-send-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--primary);
+            border: none;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .floating-send-btn:hover {
+            transform: scale(1.05);
+        }
+
+        /* MHRS Section */
+        .mhrs-section {
+            background: var(--success);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .mhrs-content h3 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .mhrs-content p {
+            font-size: 1.125rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .mhrs-btn {
+            background: white;
+            color: var(--success);
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: var(--radius);
+            font-weight: 600;
+            font-size: 1.125rem;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .mhrs-btn:hover {
+            background: #f8f9fa;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* Emergency Notice */
+        .emergency-notice {
+            background: linear-gradient(135deg, var(--danger), #dc2626);
+            color: white;
+            padding: 2rem;
+            border-radius: var(--radius);
+            margin: 3rem 0;
+            text-align: center;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .emergency-notice h4 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .emergency-btn {
+            background: white;
+            color: var(--danger);
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 1rem;
+            transition: var(--transition);
+            text-decoration: none;
+        }
+
+        .emergency-btn:hover {
+            background: #f8f9fa;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--text-primary);
+            color: var(--text-light);
+            padding: 3rem 0 2rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h4 {
+            color: white;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #374151;
+            padding-top: 2rem;
+            text-align: center;
+            color: var(--text-light);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: rgba(255, 255, 255, 0.98);
+                backdrop-filter: blur(20px);
+                box-shadow: var(--shadow-lg);
+                flex-direction: column;
+                padding: 2rem;
+                gap: 1rem;
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            .hero-container {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 2rem;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .test-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .test-form-wrapper {
+                position: static;
+            }
+
+            .features-grid,
+            .topics-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .floating-chat-container {
+                width: 320px;
+                height: 450px;
+                right: -10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-loader" id="page-loader">
+        <div class="loader-content">
+            <i class="fas fa-heartbeat loader-icon"></i>
+            <h3>Yükleniyor...</h3>
+        </div>
+    </div>
+    
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <div class="nav-logo-icon"><i class="fas fa-heartbeat"></i></div>
+                <span class="nav-logo-text">Kadın Sağlığı AI</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#about" class="active">Hakkımızda</a>
+                <a href="#features">Özellikler</a>
+                <a href="#topics">Sağlık Rehberi</a>
+                <a href="#test">AI Analiz</a>
+                <a href="#mhrs">Randevu Al</a>
+            </nav>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>AI Destekli Akıllı Kadın Sağlığı Platformu</h1>
+                <p>Kişiselleştirilmiş risk analizi ve kapsamlı sağlık rehberi ile sağlığınızı güvence altına alın. Tıbbi destek için profesyonel sağlık hizmetlerine yönlendiriyoruz.</p>
+                <div class="hero-buttons">
+                    <a href="#test" class="btn btn-primary">Risk Analizi Yap <i class="fas fa-arrow-right"></i></a>
+                    <a href="#mhrs" class="btn btn-outline">Doktor Randevusu Al <i class="fas fa-calendar-plus"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <i class="fas fa-shield-alt hero-card-icon"></i>
+                    <h3>Sağlığınızı Koruyun</h3>
+                    <p>AI ile kişisel risk profilinizi çıkarın ve uzman desteği alın.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Neden Kadın Sağlığı AI?</h2>
+                <p class="section-subtitle">Sağlığınızı yönetmek için ihtiyacınız olan bilgiler tek platformda.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>AI Destekli Risk Analizi</h3>
+                    <p>Meme kanseri, osteoporoz gibi risklerinizi yapay zeka ile analiz ederek kişiselleştirilmiş bir değerlendirme sunar.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-robot"></i></div>
+                    <h3>Uzman Chatbot</h3>
+                    <p>24/7 erişilebilir chatbot'umuz, kadın sağlığı ile ilgili sorularınızı doğru ve güvenilir kaynaklarla yanıtlar.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-book-medical"></i></div>
+                    <h3>Kapsamlı Sağlık Rehberi</h3>
+                    <p>Adet döngüsü, gebelik, menopoz ve daha fazlası hakkında güncel ve bilimsel bilgilere erişin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="health-topics" id="topics">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sağlık Rehberi Konuları</h2>
+                <p class="section-subtitle">Kadın sağlığına dair en önemli konular hakkında bilgi edinin.</p>
+            </div>
+            <div class="topics-grid">
+                <div class="topic-card">
+                    <div class="topic-header">
+                        <h3>Meme Sağlığı</h3>
+                    </div>
+                    <div class="topic-content">
+                        <p>Meme kanseri risk faktörleri ve tarama yöntemleri hakkında bilgi edinin.</p>
+                        <ul class="topic-list">
+                            <li><i class="fas fa-check-circle"></i> Kendi kendine muayene teknikleri</li>
+                            <li><i class="fas fa-check-circle"></i> Mamografi ve ultrason önemi</li>
+                            <li><i class="fas fa-check-circle"></i> Beslenme ve yaşam tarzı</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="topic-card">
+                    <div class="topic-header">
+                        <h3>Jinekolojik Sağlık</h3>
+                    </div>
+                    <div class="topic-content">
+                        <p>Adet döngüsü, gebelik takibi ve menopoz gibi konularda detaylı bilgiler.</p>
+                        <ul class="topic-list">
+                            <li><i class="fas fa-check-circle"></i> Adet düzensizlikleri</li>
+                            <li><i class="fas fa-check-circle"></i> Menopoz yönetimi</li>
+                            <li><i class="fas fa-check-circle"></i> Cinsel sağlık ve enfeksiyonlar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ai-test" id="test">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">AI Destekli Risk Analizi</h2>
+                <p class="section-subtitle">Aşağıdaki formu doldurarak kişiselleştirilmiş sağlık risk raporunuzu alın.</p>
+            </div>
+            <div class="test-container">
+                <div class="test-form-wrapper">
+                    <div class="form-title">
+                        <h3>Risk Analiz Formu</h3>
+                        <p>Lütfen bilgilerinizi doğru giriniz.</p>
+                    </div>
+                    <form id="risk-analysis-form">
+                        <div class="form-group">
+                            <label for="age">Yaş</label>
+                            <input type="number" id="age" name="age" class="form-input" required min="18" max="120">
+                        </div>
+                        <div class="form-group bmi-group">
+                            <label for="height">Boy (cm)</label>
+                            <input type="number" id="height" name="height" class="form-input" required min="100" max="250" step="0.1">
+                        </div>
+                        <div class="form-group bmi-group">
+                            <label for="weight">Kilo (kg)</label>
+                            <input type="number" id="weight" name="weight" class="form-input" required min="30" max="200" step="0.1">
+                        </div>
+                        <div class="form-group bmi-group">
+                            <label for="bmi">BMI (Vücut Kitle İndeksi)</label>
+                            <input type="text" id="bmi" name="bmi" class="form-input" readonly placeholder="Hesaplamak için boy ve kilo girin.">
+                            <button type="button" class="bmi-calc-btn" id="bmi-calc-btn">Hesapla</button>
+                        </div>
+                        <div class="form-group">
+                            <label for="smoking">Sigara Kullanımı</label>
+                            <select id="smoking" name="smoking" class="form-input" required>
+                                <option value="">Seçiniz</option>
+                                <option value="0">Hayır</option>
+                                <option value="1">Evet</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="genetic_risk">Ailede Kanser Öyküsü</label>
+                            <select id="genetic_risk" name="genetic_risk" class="form-input" required>
+                                <option value="">Seçiniz</option>
+                                <option value="0">Hayır</option>
+                                <option value="1">Evet</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="physical_activity">Fiziksel Aktivite Düzeyi</label>
+                            <select id="physical_activity" name="physical_activity" class="form-input" required>
+                                <option value="">Seçiniz</option>
+                                <option value="0">Düşük</option>
+                                <option value="1">Orta</option>
+                                <option value="2">Yüksek</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="alcohol_intake">Alkol Kullanımı</label>
+                            <select id="alcohol_intake" name="alcohol_intake" class="form-input" required>
+                                <option value="">Seçiniz</option>
+                                <option value="0">Hayır</option>
+                                <option value="1">Evet</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="cancer_history">Geçmiş Kanser Öyküsü</label>
+                            <select id="cancer_history" name="cancer_history" class="form-input" required>
+                                <option value="">Seçiniz</option>
+                                <option value="0">Hayır</option>
+                                <option value="1">Evet</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">
+                            <span class="btn-text">Analiz Et <i class="fas fa-arrow-right"></i></span>
+                            <span class="btn-loading"><i class="fas fa-spinner fa-spin"></i> Yükleniyor...</span>
+                        </button>
+                    </form>
+                </div>
+                <div class="results-area" id="results-area">
+                    <div class="result-card" style="display: block;" id="initial-result">
+                        <div class="result-header">
+                            <h3>Sonuç Alanı</h3>
+                            <p>Formu doldurarak sonuçlarınızı burada görebilirsiniz.</p>
+                            <i class="fas fa-chart-bar" style="font-size: 3rem; color: var(--primary-solid); margin-top: 2rem;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mhrs-section" id="mhrs">
+        <div class="container">
+            <div class="mhrs-content">
+                <h3>Profesyonel Sağlık Hizmeti</h3>
+                <p>Risk analizi sonuçlarınızı bir uzmana danışmak ve randevu almak için MHRS sistemini kullanabilirsiniz.</p>
+                <a href="https://www.mhrs.gov.tr/" target="_blank" class="mhrs-btn">
+                    <i class="fas fa-external-link-alt"></i>
+                    MHRS'den Randevu Al
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="emergency-notice">
+            <h4>⚠️ Acil Durum Uyarısı</h4>
+            <p>Bu platform tıbbi bir teşhis veya tedavi aracı değildir. Ciddi sağlık sorunları için lütfen bir uzmana veya acil servise başvurun.</p>
+            <a href="tel:112" class="emergency-btn">Acil Servisi Ara</a>
+        </div>
+    </section>
+
+    <!-- Floating Chatbot -->
+    <div class="floating-chatbot">
+        <div class="floating-chat-container" id="floating-chat-container">
+            <div class="floating-chat-header">
+                <h4>Sağlık Asistanı</h4>
+                <p>Sorularınızı sorun</p>
+            </div>
+            <div class="floating-chat-messages" id="floating-chat-messages">
+                <div class="floating-message floating-bot-message">Merhaba! Kadın sağlığı konusunda size nasıl yardımcı olabilirim?</div>
+            </div>
+            <div class="floating-chat-input-area">
+                <input type="text" class="floating-chat-input" id="floating-chat-input" placeholder="Bir soru yazın...">
+                <button class="floating-send-btn" id="floating-send-btn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+        <button class="chat-toggle-btn" id="chat-toggle-btn">
+            <i class="fas fa-comments"></i>
+        </button>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Hakkımızda</h4>
+                    <p>Kadınların sağlıklarını korumalarına yardımcı olmak için AI teknolojisini kullanıyoruz.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hızlı Bağlantılar</h4>
+                    <ul>
+                        <li><a href="#features">Özellikler</a></li>
+                        <li><a href="#test">AI Analiz</a></li>
+                        <li><a href="#mhrs">Randevu Al</a></li>
+                        <li><a href="#">Gizlilik Politikası</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Acil Durumlar</h4>
+                    <ul>
+                        <li><a href="tel:112"><i class="fas fa-phone"></i> 112 - Acil Çağrı</a></li>
+                        <li><a href="tel:183"><i class="fas fa-phone"></i> 183 - Sağlık Bakanlığı</a></li>
+                        <li><a href="tel:184"><i class="fas fa-phone"></i> 184 - Alo Kadın Hattı</a></li>
+                        <li><a href="https://www.mhrs.gov.tr/" target="_blank"><i class="fas fa-external-link-alt"></i> MHRS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Uyarı</h4>
+                    <p style="font-size: 0.9rem; line-height: 1.5;">Bu platform bilgilendirme amaçlıdır. Tıbbi tanı, tedavi veya tavsiye sağlamaz. Sağlık sorunlarınız için mutlaka bir sağlık profesyoneline danışın.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kadın Sağlığı AI. Tüm Hakları Saklıdır. Bu platform bilgilendirme amaçlıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const pageLoader = document.getElementById('page-loader');
+            const hamburger = document.getElementById('hamburger');
+            const navMenu = document.getElementById('nav-menu');
+            const navbar = document.getElementById('navbar');
+            const form = document.getElementById('risk-analysis-form');
+            const resultsArea = document.getElementById('results-area');
+            const initialResultCard = document.getElementById('initial-result');
+            const submitBtn = document.getElementById('submit-btn');
+            const bmiInput = document.getElementById('bmi');
+            const bmiCalcBtn = document.getElementById('bmi-calc-btn');
+            const heightInput = document.getElementById('height');
+            const weightInput = document.getElementById('weight');
+
+            // Floating chatbot elements
+            const chatToggleBtn = document.getElementById('chat-toggle-btn');
+            const floatingChatContainer = document.getElementById('floating-chat-container');
+            const floatingChatMessages = document.getElementById('floating-chat-messages');
+            const floatingChatInput = document.getElementById('floating-chat-input');
+            const floatingSendBtn = document.getElementById('floating-send-btn');
+
+            // Simulate page load
+            setTimeout(() => {
+                pageLoader.style.opacity = '0';
+                setTimeout(() => pageLoader.style.display = 'none', 500);
+            }, 1000);
+
+            // Hamburger menu toggle
+            hamburger.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+
+            // Navbar scroll effect
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+
+            // BMI Calculator
+            bmiCalcBtn.addEventListener('click', () => {
+                const height = parseFloat(heightInput.value);
+                const weight = parseFloat(weightInput.value);
+                if (height > 0 && weight > 0) {
+                    const heightM = height / 100;
+                    const bmi = weight / (heightM * heightM);
+                    bmiInput.value = bmi.toFixed(2);
+                } else {
+                    alert('Lütfen boy ve kilo bilgilerinizi doğru giriniz.');
+                }
+            });
+
+            // Auto calculate BMI when height and weight change
+            [heightInput, weightInput].forEach(input => {
+                input.addEventListener('input', () => {
+                    const height = parseFloat(heightInput.value);
+                    const weight = parseFloat(weightInput.value);
+                    if (height > 0 && weight > 0) {
+                        const heightM = height / 100;
+                        const bmi = weight / (heightM * heightM);
+                        bmiInput.value = bmi.toFixed(2);
+                    }
+                });
+            });
+
+            // Form submission
+            form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                submitBtn.disabled = true;
+                submitBtn.classList.add('loading');
+
+                try {
+                    // Create form data object
+                    const formData = new FormData(form);
+                    
+                    // Make API request
+                    const response = await fetch('/predict', {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    const data = await response.json();
+
+                    if (data.error) {
+                        throw new Error(data.error);
+                    }
+
+                    // Display results
+                    displayResults(data);
+
+                } catch (error) {
+                    console.error('Error:', error);
+                    resultsArea.innerHTML = `
+                        <div class="result-card" style="border-left: 6px solid var(--danger);">
+                            <div class="result-header">
+                                <h3>Hata Oluştu</h3>
+                                <p style="color: var(--danger);">${error.message}</p>
+                                <p>Lütfen form bilgilerinizi kontrol edip tekrar deneyin.</p>
+                            </div>
+                        </div>
+                    `;
+                } finally {
+                    submitBtn.disabled = false;
+                    submitBtn.classList.remove('loading');
+                }
+            });
+
+            function displayResults(data) {
+                let progressColor = '#10b981'; // green
+                if (data.risk_class === 'medium-risk') progressColor = '#f59e0b'; // yellow
+                else if (data.risk_class === 'high-risk') progressColor = '#ef4444'; // red
+
+                const actionsHtml = data.actions.map(action => `
+                    <li><i class="fas fa-check-circle"></i> ${action}</li>
+                `).join('');
+
+                const resultHtml = `
+                    <div class="result-card ${data.risk_class}">
+                        <div class="result-header">
+                            <h3>Risk Analiz Sonucunuz</h3>
+                            <p>Bu sonuçlar bilgilendirme amaçlıdır. Kesin teşhis için doktora başvurunuz.</p>
+                        </div>
+                        <div class="result-score">
+                            <span class="score-value">${data.risk_percentage}%</span>
+                            <span class="risk-level">${data.risk_level}</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: ${Math.min(data.risk_percentage, 100)}%; background: ${progressColor};"></div>
+                        </div>
+                        <div class="recommendation">
+                            <h4>Önerilerimiz</h4>
+                            <p>${data.recommendation}</p>
+                        </div>
+                        <ul class="actions-list">
+                            ${actionsHtml}
+                        </ul>
+                        <div style="text-align: center; margin-top: 2rem;">
+                            <a href="#mhrs" class="btn btn-primary">
+                                <i class="fas fa-calendar-plus"></i> Doktor Randevusu Al
+                            </a>
+                        </div>
+                    </div>
+                `;
+
+                resultsArea.innerHTML = resultHtml;
+                
+                // Scroll to results
+                setTimeout(() => {
+                    resultsArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }, 100);
+            }
+
+            // Floating Chatbot functionality
+            chatToggleBtn.addEventListener('click', () => {
+                floatingChatContainer.classList.toggle('active');
+                if (floatingChatContainer.classList.contains('active')) {
+                    floatingChatInput.focus();
+                }
+            });
+
+            const addFloatingMessage = (text, sender) => {
+                const messageDiv = document.createElement('div');
+                messageDiv.classList.add('floating-message', sender === 'user' ? 'floating-user-message' : 'floating-bot-message');
+                messageDiv.textContent = text;
+                floatingChatMessages.appendChild(messageDiv);
+                floatingChatMessages.scrollTop = floatingChatMessages.scrollHeight;
+            };
+
+            const handleFloatingChatInput = async (message) => {
+                if (message.trim() === '') return;
+
+                addFloatingMessage(message, 'user');
+                floatingChatInput.value = '';
+
+                try {
+                    const response = await fetch('/chatbot', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ message: message })
+                    });
+
+                    const data = await response.json();
+
+                    if (data.status === 'success') {
+                        addFloatingMessage(data.response, 'bot');
+                    } else {
+                        addFloatingMessage('Üzgünüm, bir hata oluştu. Lütfen tekrar deneyin.', 'bot');
+                    }
+                } catch (error) {
+                    console.error('Chatbot error:', error);
+                    addFloatingMessage('Bağlantı hatası. Lütfen internet bağlantınızı kontrol edin.', 'bot');
+                }
+            };
+
+            floatingSendBtn.addEventListener('click', () => {
+                handleFloatingChatInput(floatingChatInput.value);
+            });
+
+            floatingChatInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    handleFloatingChatInput(floatingChatInput.value);
+                }
+            });
+
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
